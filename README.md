@@ -9,7 +9,7 @@ Edite `elements.data`, `tasks.data` e outros recursos do cliente em uma interfac
 ![Windows x64](https://img.shields.io/badge/Windows-x64-0078D4?logo=windows&logoColor=white)
 ![.NET Framework 4.8](https://img.shields.io/badge/Editor-.NET%20Framework%204.8-512BD4?logo=dotnet&logoColor=white)
 ![.NET 10](https://img.shields.io/badge/Build%20e%20MCP-.NET%2010-512BD4?logo=dotnet&logoColor=white)
-![Idioma](https://img.shields.io/badge/Interface-Portugu%C3%AAs%20%7C%20English-2E8B57)
+![Idiomas funcionais](https://img.shields.io/badge/Idiomas-Portugu%C3%AAs%20%7C%20English-2E8B57)
 
 </div>
 
@@ -39,7 +39,7 @@ O projeto inclui o executável compilado em `dist/`, o código-fonte reconstruí
 - **Tasks** — edição de tarefas e missões, visualização de relações, importação/exportação JSON e identificação visual por tipo.
 - **Outros formatos** — ferramentas para IA, geração de NPCs, lojas, arquivos PCK, mapas, modelos e recursos auxiliares, conforme os módulos disponíveis.
 - **Configuração por versão** — arquivos CFG e catálogos de idioma ficam em `Editor/runtime/`.
-- **Português e inglês** — catálogos de interface para os editores principal e Tasks.
+- **Idiomas funcionais:** português e inglês nos editores principal e Tasks. Os demais idiomas estão em desenvolvimento e podem apresentar traduções incompletas.
 
 ## 🛠️ Melhorias e correções
 
@@ -126,3 +126,4 @@ O crédito original identificado nos recursos do aplicativo é **Angelica Core (
 A reconstrução do código utilizou ferramentas de decompilação documentadas em [`Editor/RAW/DEOBF_NOTES.md`](Editor/RAW/DEOBF_NOTES.md), incluindo **ILSpy** e **de4dot-cex**. Créditos e licenças de dependências de terceiros devem ser consultados nos projetos e pacotes correspondentes.
 
 **Este repositório ainda não possui uma licença de redistribuição definida.** Código reconstruído, CFGs, ícones e demais recursos podem estar sujeitos a direitos de terceiros. Confirme a autorização dos respectivos titulares antes de publicar o repositório publicamente ou redistribuir os binários. A ausência de uma licença não concede permissão de uso.
+
