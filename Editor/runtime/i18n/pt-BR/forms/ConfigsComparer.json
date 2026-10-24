@@ -1,0 +1,9 @@
+{
+  "controls": {
+    "button3": "Próxima diferença",
+    "button2": "Mover arquivo 2 para cá",
+    "button1": "Mover arquivo 1 para cá"
+  },
+  "tooltips": {},
+  "lists": {}
+}

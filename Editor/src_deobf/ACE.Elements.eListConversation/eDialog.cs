@@ -1,0 +1,40 @@
+using System;
+using System.Text;
+
+namespace ACE.Elements.eListConversation;
+
+public class eDialog
+{
+	public int DialogID;
+
+	public byte[] DialogName;
+
+	public int QuestionCount;
+
+	public eQuestion[] Questions;
+
+	public string GetText()
+	{
+		string result = Encoding.GetEncoding(Class16.smethod_0(1649074210)).GetString(DialogName);
+		GC.KeepAlive(this);
+		return result;
+	}
+
+	public void SetText(string Value)
+	{
+		Encoding encoding = Encoding.GetEncoding(Class16.smethod_0(1649074210));
+		byte[] array = new byte[128];
+		byte[] bytes = encoding.GetBytes(Value);
+		int num = bytes.Length;
+		int num2 = array.Length;
+		if (num2 > num)
+		{
+			Array.Copy(bytes, array, num);
+		}
+		else
+		{
+			Array.Copy(bytes, array, num2);
+		}
+		DialogName = array;
+	}
+}

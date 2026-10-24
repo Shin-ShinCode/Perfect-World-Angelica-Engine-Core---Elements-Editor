@@ -1,0 +1,13 @@
+{
+  "controls": {
+    "label1": "Selecione ou digite o ID:",
+    "cmdok": "Selecionar [Enter]",
+    "clmAddon": "Adicional",
+    "clmID": "Selecione ou digite o ID:",
+    "cmdcancel": "Cancelar [Esc]"
+  },
+  "tooltips": {
+    "addons": "Clique duas vezes para selecionar"
+  },
+  "lists": {}
+}

@@ -1,0 +1,19 @@
+{
+  "controls": {
+    "cmdok": "Confirmar [Enter]",
+    "label2": "Máscara:",
+    "cmdUncheckAll": "Nenhum",
+    "cmdCheckAll": "Todos",
+    "cmdcancel": "Cancelar [Esc]",
+    "checkBox5": "Água/óleo",
+    "checkBox3": "Cogumelos",
+    "checkBox4": "Frutas/vegetais",
+    "checkBox1": "Ervas",
+    "checkBox2": "Carne"
+  },
+  "tooltips": {
+    "cmdUncheckAll": "Desmarcar tudo...",
+    "cmdCheckAll": "Marcar tudo..."
+  },
+  "lists": {}
+}

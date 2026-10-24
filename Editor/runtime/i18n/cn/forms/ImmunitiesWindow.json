@@ -1,0 +1,34 @@
+{
+  "controls": {
+    "cmdok": "确定 [回车]",
+    "label2": "掩码:",
+    "checkBox7": "攻击",
+    "checkBox14": "裂伤（降低生命值百分比）",
+    "checkBox12": "诅咒（龙）",
+    "checkBox13": "击退",
+    "checkBox10": "定身",
+    "checkBox11": "封印",
+    "checkBox8": "睡眠",
+    "checkBox9": "减速",
+    "cmdUncheckAll": "无",
+    "cmdCheckAll": "全部",
+    "cmdcancel": "取消[ESC]",
+    "checkBox5": "火系",
+    "checkBox6": "土系",
+    "checkBox3": "木系",
+    "checkBox4": "水下",
+    "checkBox1": "物理肉搏",
+    "checkBox2": "金系",
+    "checkBox15": "仅召唤者可攻击",
+    "checkBox16": "免疫穿透",
+    "checkBox17": "未知 2",
+    "checkBox18": "免疫流血",
+    "checkBox19": "负面状态",
+    "checkBox20": "掉落物品"
+  },
+  "tooltips": {
+    "cmdUncheckAll": "全部取消选择……",
+    "cmdCheckAll": "全部选择……"
+  },
+  "lists": {}
+}

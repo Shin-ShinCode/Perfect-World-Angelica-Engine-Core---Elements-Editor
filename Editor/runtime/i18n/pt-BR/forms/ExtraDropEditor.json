@@ -1,0 +1,43 @@
+{
+  "controls": {
+    "menuMain": "Barra de menus",
+    "fileToolStripMenuItem": "Arquivo",
+    "newToolStripMenuItem": "Novo",
+    "openFileToolStripMenuItem": "Abrir",
+    "saveFileToolStripMenuItem": "Salvar",
+    "saveAsToolStripMenuItem": "Salvar como",
+    "grpGroupsList": "Lista de grupos",
+    "clmGroupName": "Nome",
+    "cmdAddGroup": "Adicionar",
+    "cmdInsertGroup": "Inserir",
+    "cmdDelGroup": "Excluir",
+    "grpGroupProperties": "Propriedades do grupo",
+    "lblPropName": "Nome",
+    "lblDropProbs": "Probabilidades de queda",
+    "grpGroupContent": "Conteúdo do grupo",
+    "grpMonsters": ": Monstros",
+    "btnFindMob": "Buscar monstro",
+    "clmMonID": "Selecione ou digite o ID:",
+    "clmMonName": "Nome",
+    "cmdAddMonster": "Adicionar monstro",
+    "cmdDelMonster": "Excluir monstro",
+    "cmdClearMonsters": "Limpar monstros",
+    "grpDrops": "Itens",
+    "btnFindItem": "Buscar item",
+    "clmDropID": "Selecione ou digite o ID:",
+    "clmDropName": "Nome",
+    "clmDropProb": "Probabilidade",
+    "clmDropProbSlider": "Editor",
+    "cmdAddDrop": "Adicionar",
+    "cmdDelDrop": "Excluir",
+    "cmdClearDrops": "Limpar",
+    "cmdClearRates": "Limpar %",
+    "lblSumStatus": "100%"
+  },
+  "tooltips": {
+    "txtSearchGroups": "Buscar grupos...",
+    "txtSearchMonsters": "Buscar monstros...",
+    "txtSearchDrops": "Buscar itens derrubados..."
+  },
+  "lists": {}
+}

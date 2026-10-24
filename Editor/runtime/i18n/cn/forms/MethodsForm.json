@@ -1,0 +1,17 @@
+{
+  "controls": {
+    "MethodsForm": "MethodsMap v1.9.0.3（Wwh，2018—2025）",
+    "btnopenrules": "打开规则",
+    "npcgen": "打开 NpcGen",
+    "btnopenconfig": "打开配置",
+    "_lblSearch": "搜索：",
+    "btnSaveAllForms": "保存所有窗口",
+    "_mnuRefresh": "刷新",
+    "_mnuFilter": "筛选……",
+    "_mnuPrepareMethod": "准备方法",
+    "_mnuNullInvoke": "空调用",
+    "_mnuCopy": "复制"
+  },
+  "tooltips": {},
+  "lists": {}
+}

@@ -1,0 +1,12 @@
+{
+  "controls": {
+    "cmdCancel": "Cancelar [Esc]",
+    "cmdOk": "Confirmar [Enter]",
+    "optDeleteItems": "Excluir",
+    "optSelectItems": "Selecionar elementos na janela principal",
+    "grpAction": "Ação para os elementos encontrados",
+    "optAddItemsToSearchResult": "Adicionar elementos aos resultados da busca"
+  },
+  "tooltips": {},
+  "lists": {}
+}

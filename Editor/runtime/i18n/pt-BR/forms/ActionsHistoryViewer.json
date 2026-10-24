@@ -1,0 +1,30 @@
+{
+  "controls": {
+    "clmID": "ID",
+    "clmDate": "Data",
+    "clmAction": "Ação",
+    "grpDate": "Período",
+    "label7": "Até:",
+    "label6": "De:",
+    "cmdRedo": "Restaurar estado após a ação",
+    "cmdShowSubactions": "Mostrar subações",
+    "cmdRedoAction": "Refazer a partir desta ação",
+    "cmdLoadBackup": "Carregar backup",
+    "cmdUndoAction": "Desfazer esta ação",
+    "cmdUndo": "Restaurar estado anterior à ação",
+    "clmItemID": "Selecione ou digite o ID:",
+    "clmField": "Campo",
+    "clmOldValue": "Valor anterior",
+    "clmNewValue": "Novo valor",
+    "groupBox4": "Lista de IDs alterados",
+    "groupBox3": "Campos modificados da lista (índice)",
+    "groupBox2": "Elementos modificados (adicionados/removidos) da lista (índice)",
+    "groupBox1": "Listas alteradas",
+    "cmdDefault": "Padrão"
+  },
+  "tooltips": {
+    "cmdBack": "Voltar à ação principal",
+    "dgvValues": "Clique duas vezes para ir ao elemento"
+  },
+  "lists": {}
+}

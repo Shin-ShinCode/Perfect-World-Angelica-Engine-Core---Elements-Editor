@@ -1,0 +1,25 @@
+{
+  "controls": {
+    "cmdcancel": "取消[ESC]",
+    "cmdok": "确认 [回车]",
+    "optSet": "设置值",
+    "optRecalculate": "重新计算值",
+    "optReplace": "文本替换",
+    "label1": "搜索:",
+    "label2": "替换带:",
+    "optRange": "设置数值范围",
+    "label3": "初始值：",
+    "label5": "每一步增加：",
+    "label6": "最大值:",
+    "label7": "最小值：",
+    "optRandom": "设置随机值",
+    "lblPasteOldValueVar": "提示：可使用变量 $oldvalue 插入旧值",
+    "label8": "操作:",
+    "Preview": "预览",
+    "optSortAscending": "按升序排列数值（0 → 10）",
+    "optSortDescending": "按降序排列数值（10 → 0）",
+    "optRemoveDuplicates": "删除重复值（保留唯一值）"
+  },
+  "tooltips": {},
+  "lists": {}
+}

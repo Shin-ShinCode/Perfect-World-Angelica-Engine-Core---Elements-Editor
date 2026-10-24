@@ -1,0 +1,28 @@
+{
+  "controls": {
+    "clmID": "Selecione ou digite o ID:",
+    "clmItemName": "Nome do item",
+    "clmProb": "Probabilidade",
+    "clmFixProb": "Corrigir",
+    "cmdAdd": "Adicionar",
+    "label4": "Probabilidade para 3 itens:",
+    "Fix3": "Corrigir",
+    "label3": "Probabilidade para 2 itens:",
+    "Fix2": "Corrigir",
+    "label2": "Probabilidade para 1 item:",
+    "Fix1": "Corrigir",
+    "label1": "Probabilidade para 0 itens:",
+    "Fix0": "Corrigir",
+    "CommonProbability": "100%",
+    "cmdDel": "Excluir",
+    "cmdok": "Salvar",
+    "cmdcancel": "Cancelar",
+    "cmdSort": "Ordenar",
+    "label5": "Número de ciclos de queda:",
+    "cmdSetEqualsProbs": "Ʃ 100%"
+  },
+  "tooltips": {
+    "chkAutoSort": "Ordenar automaticamente"
+  },
+  "lists": {}
+}

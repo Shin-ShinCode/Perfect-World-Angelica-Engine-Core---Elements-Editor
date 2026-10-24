@@ -1,0 +1,33 @@
+{
+  "controls": {
+    "RulesWindow": "Diferenças na estrutura de elements (regras)",
+    "button_view": "Ver regras...",
+    "button_import": "Importar regras...",
+    "button_export": "Exportar regras...",
+    "groupBox2": "Listas",
+    "Column7": "Valor base",
+    "Column8": "Valor do arquivo novo",
+    "Column1": "Campo base",
+    "Column2": "Campo do arquivo novo",
+    "Column3": "Valores diferentes",
+    "Column4": "Excluir",
+    "Column6": "Analisar",
+    "radioButton_recentOffset": "Manter deslocamento do arquivo novo",
+    "radioButton_baseOffset": "Usar deslocamento do arquivo base",
+    "checkBox_removeList": "Remover lista",
+    "groupBox1": "Arquivos",
+    "button_browseRecent": "Procurar...",
+    "button_browseBase": "Procurar...",
+    "label4": "Versão:",
+    "label3": "Versão:",
+    "label2": "Arquivo novo:",
+    "label1": "Arquivo base:"
+  },
+  "tooltips": {
+    "dataGridView_fields": "Compara os campos da lista selecionada.\nSe o arquivo novo tiver mais campos nessa lista que o arquivo base, será necessário remover alguns.\n\n“Valores diferentes” compara todos os valores dos elementos nos campos correspondentes e conta as diferenças. Um número alto pode indicar que o arquivo novo contém campos adicionados.\n\n“Excluir” remove o campo do arquivo novo e atualiza a visualização.\n\n“Analisar” compara detalhadamente os valores dos campos correspondentes nos dois arquivos.",
+    "radioButton_recentOffset": "Mantém o deslocamento de lista do arquivo novo.\nListas com deslocamento suspeito: 0, 20 e 100.\n\nPara o arquivo base versão 7 (servidor 1.2.6), as listas 0, 20 e 100 precisam usar o deslocamento do arquivo base!",
+    "radioButton_baseOffset": "Usa o deslocamento de lista do arquivo base em vez do arquivo novo.\nListas com deslocamento suspeito: 0, 20 e 100.\n\nPara o arquivo base versão 7 (servidor 1.2.6), as listas 0, 20 e 100 precisam usar o deslocamento do arquivo base!",
+    "checkBox_removeList": "Remove a lista selecionada."
+  },
+  "lists": {}
+}

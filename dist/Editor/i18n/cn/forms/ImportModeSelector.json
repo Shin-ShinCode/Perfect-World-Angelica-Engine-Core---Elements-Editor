@@ -1,0 +1,13 @@
+{
+  "controls": {
+    "cmdCancel": "取消[ESC]",
+    "cmdAccept": "确定 [回车]",
+    "lblText": "部分物品已存在。请选择导入物品已存在时的处理方式：",
+    "optReplaceTheExistingItem": "替换现有物品",
+    "optSetUniqueIDForNewItemAndAddIt": "为新物品设置唯一 ID 并添加",
+    "optSkipNewItem": "跳过新物品",
+    "optAddNewItem": "添加新物品"
+  },
+  "tooltips": {},
+  "lists": {}
+}

@@ -1,0 +1,38 @@
+{
+  "controls": {
+    "cmdok": "确定 [回车]",
+    "label2": "状态：",
+    "cmdUncheckAll": "无",
+    "cmdCheckAll": "全部",
+    "cmdcancel": "取消[ESC]",
+    "groupBoxStoreType": "商店类型",
+    "checkBoxStoreNormal": "普通商店（0）",
+    "checkBoxStoreNew": "新式商店（1）",
+    "checkBoxStoreRecommended": "推荐商店（2）",
+    "checkBoxStoreHighlight": "精选时装商店（3）",
+    "checkBoxStoreClassic": "经典时装商店（9）",
+    "checkBoxStoreReturn": "回归时装商店（15）",
+    "groupBoxPercentage": "百分比",
+    "checkBoxPercent80_4096": "80% (4096)",
+    "checkBoxPercent80_2048": "80% (2048)",
+    "checkBoxPercent80_1024": "80% (1024)",
+    "checkBoxPercent60": "60% (512)",
+    "checkBoxPercent50": "50% (256)",
+    "checkBoxPercent40": "40% (128)",
+    "checkBoxPercent30": "30% (64)",
+    "checkBoxPercent20": "20% (32)",
+    "checkBoxPercent10": "10% (16)",
+    "groupBoxVIP": "VIP",
+    "checkBoxVip1": "VIP 1 (16384)",
+    "checkBoxVip2": "VIP 2 (32768)",
+    "checkBoxVip3": "VIP 3 (65536)",
+    "checkBoxVip4": "VIP 4 (131072)",
+    "checkBoxVip5": "VIP 5 (262144)",
+    "checkBoxVip6": "VIP 6 (524288)"
+  },
+  "tooltips": {
+    "cmdUncheckAll": "全部取消选择……",
+    "cmdCheckAll": "全部选择……"
+  },
+  "lists": {}
+}

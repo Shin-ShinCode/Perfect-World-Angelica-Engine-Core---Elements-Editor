@@ -1,0 +1,30 @@
+{
+  "controls": {
+    "clmID": "序号",
+    "clmDate": "日期",
+    "clmAction": "操作",
+    "grpDate": "时间范围",
+    "label7": "到:",
+    "label6": "从:",
+    "cmdRedo": "恢复到操作后的状态",
+    "cmdShowSubactions": "查看子操作",
+    "cmdRedoAction": "返回此操作",
+    "cmdLoadBackup": "打开备份",
+    "cmdUndoAction": "撤销此操作",
+    "cmdUndo": "恢复到操作前的状态",
+    "clmItemID": "请选择或输入 ID：",
+    "clmField": "字段",
+    "clmOldValue": "旧值",
+    "clmNewValue": "新建值",
+    "groupBox4": "已更改的 ID 列表",
+    "groupBox3": "列表的已修改字段 (索引)",
+    "groupBox2": "列表的已修改 (已添加, 已删除) 元素 (索引)",
+    "groupBox1": "已更改列表",
+    "cmdDefault": "默认"
+  },
+  "tooltips": {
+    "cmdBack": "返回到主操作",
+    "dgvValues": "双击单击到转到到元素"
+  },
+  "lists": {}
+}

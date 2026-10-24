@@ -1,0 +1,59 @@
+{
+  "controls": {
+    "JoinWindow": "Importar elementos de arquivo",
+    "label1": "Arquivo a ser anexado:",
+    "cmdBrowse": "Procurar...",
+    "cmdcancel": "Fechar [Esc]",
+    "cmdok": "Iniciar [Enter]",
+    "optStringFields": "[Localização] Importar somente campos de texto",
+    "optSpecificFields": "Importar somente os campos especificados:",
+    "optAllFields": "Importar todos os campos (substituição completa)",
+    "chkAddNewItems": "Adicionar elementos ausentes ao arquivo atual",
+    "grpImportSettings": "Configurações de importação de dados",
+    "grpParametersImportedFields": "Parâmetros dos campos importados",
+    "optNothingFields": "Não importar campos: adicionar somente os elementos ausentes (se ativado)",
+    "label3": "Até:",
+    "label2": "Índice inicial nº:",
+    "grpLocalization": "Listas",
+    "chkSkipNPCTalk": "Ignorar diálogos de NPCs",
+    "chkCheckOldFields": "Alterar somente valores correspondentes:",
+    "chkIsLocalization": "Não alterar modelos nem ícones (recomendado)",
+    "optSelectedFields": "Importar somente os campos selecionados pelo nome:",
+    "cmdLoadFields": "Carregar campos",
+    "lblFieldsInfo": "Escolha a lista, carregue os campos e marque os que deseja importar.",
+    "cmdSelectAllFields": "Selecionar todos",
+    "cmdDeselectAllFields": "Desmarcar todos"
+  },
+  "tooltips": {
+    "textBox_ElementFile": "Arquivo elements.data de origem. Os dados selecionados serão lidos deste arquivo e importados para o arquivo aberto no editor.",
+    "cmdBrowse": "Escolher o arquivo elements.data que contém os dados a importar.",
+    "cmbLists": "Define o alcance da importação: todas as listas, somente as listas informadas ou apenas os diálogos de NPCs.",
+    "txtLists": "Informe o número ou o nome da lista. Separe várias listas com ponto e vírgula; use hífen para um intervalo. Também é possível dar um clique duplo para escolher as listas.",
+    "chkAddNewItems": "Acrescenta ao arquivo atual os elementos do arquivo de origem cujo ID ainda não existe na lista correspondente.",
+    "optAllFields": "Para elementos com o mesmo ID, substitui todos os campos pelos valores do arquivo de origem.",
+    "optStringFields": "Para elementos com o mesmo ID, importa somente campos de texto usados na localização, preservando os demais dados.",
+    "optSpecificFields": "Para elementos com o mesmo ID, importa apenas os campos no intervalo de índices informado abaixo.",
+    "FirstFieldIndex": "Primeiro índice de campo a importar. A contagem segue a estrutura da lista selecionada.",
+    "LastFieldIndex": "Último índice de campo a importar; este índice também é incluído.",
+    "optNothingFields": "Não altera campos dos elementos existentes. Use com a opção de acrescentar elementos ausentes para importar somente novos IDs.",
+    "optSelectedFields": "Permite marcar campos pelo nome em vez de informar os índices. Primeiro escolha uma lista e carregue seus campos.",
+    "cmdLoadFields": "Lê os nomes dos campos da lista escolhida no arquivo de origem e preenche a seleção abaixo.",
+    "lstFields": "Marque os nomes dos campos que devem ser importados para elementos com o mesmo ID.",
+    "cmdSelectAllFields": "Marca todos os campos carregados nesta lista para importação.",
+    "cmdDeselectAllFields": "Desmarca todos os campos carregados nesta lista.",
+    "chkIsLocalization": "Ao importar texto de localização, preserva os modelos e ícones dos elementos existentes.",
+    "chkSkipNPCTalk": "Mantém os diálogos de NPCs do arquivo atual durante a importação de texto.",
+    "chkCheckOldFields": "Ativa a comparação com um terceiro arquivo: somente valores correspondentes serão alterados.",
+    "txtElements3": "Arquivo de referência usado para comparar os valores existentes antes de importar os novos.",
+    "cmdBrowseElements3": "Escolher o arquivo de referência usado na comparação de valores.",
+    "cmdok": "Inicia a importação com as opções selecionadas. Confira o arquivo de origem e o alcance das listas antes de continuar.",
+    "cmdcancel": "Fecha a janela sem iniciar a importação."
+  },
+  "lists": {
+    "cmbLists": [
+      "Importar todas as listas",
+      "Importar somente estas listas:",
+      "Importar somente diálogos de NPCs"
+    ]
+  }
+}

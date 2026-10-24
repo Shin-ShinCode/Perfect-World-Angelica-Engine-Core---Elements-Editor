@@ -1,0 +1,24 @@
+{
+  "controls": {
+    "checkBox_BM": "武侠",
+    "checkBox_WIZ": "法师",
+    "checkBox_PSY": "巫师",
+    "checkBox_VEN": "妖精",
+    "checkBox_BAR": "妖兽",
+    "checkBox_AS": "刺客",
+    "checkBox_AR": "羽芒",
+    "checkBox_CLE": "羽灵",
+    "checkBox_SE": "剑灵",
+    "checkBox_MY": "魅灵",
+    "cmdok": "确定 [回车]",
+    "label2": "掩码:",
+    "cmdCheckAll": "全部",
+    "cmdUncheckAll": "无",
+    "checkBox_new2": "胧族",
+    "checkBox_new1": "灵族普通",
+    "checkBox_new4": "月仙［1.6.0］",
+    "checkBox_new3": "夜影［1.6.0］"
+  },
+  "tooltips": {},
+  "lists": {}
+}

@@ -1,0 +1,11 @@
+{
+  "controls": {
+    "IconsWindow": "Seletor de ícones [Esc — Cancelar]",
+    "cmdCancel": "Cancelar",
+    "cmdOK": "Selecionar"
+  },
+  "tooltips": {
+    "highlighter": "Ícone atual"
+  },
+  "lists": {}
+}

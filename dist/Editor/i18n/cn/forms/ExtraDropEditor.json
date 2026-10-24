@@ -1,0 +1,43 @@
+{
+  "controls": {
+    "menuMain": "菜单栏",
+    "fileToolStripMenuItem": "文件",
+    "newToolStripMenuItem": "新",
+    "openFileToolStripMenuItem": "打开",
+    "saveFileToolStripMenuItem": "保存",
+    "saveAsToolStripMenuItem": "另存为",
+    "grpGroupsList": "组列表",
+    "clmGroupName": "名称",
+    "cmdAddGroup": "添加",
+    "cmdInsertGroup": "插入",
+    "cmdDelGroup": "删除",
+    "grpGroupProperties": "组属性",
+    "lblPropName": "名称",
+    "lblDropProbs": "掉落概率",
+    "grpGroupContent": "组内容",
+    "grpMonsters": ": 怪物",
+    "btnFindMob": "查找怪物",
+    "clmMonID": "请选择或输入 ID：",
+    "clmMonName": "名称",
+    "cmdAddMonster": "添加怪物",
+    "cmdDelMonster": "删除怪物",
+    "cmdClearMonsters": "清除怪物",
+    "grpDrops": "项目",
+    "btnFindItem": "查找物品",
+    "clmDropID": "请选择或输入 ID：",
+    "clmDropName": "名称",
+    "clmDropProb": "概率",
+    "clmDropProbSlider": "编辑器",
+    "cmdAddDrop": "添加",
+    "cmdDelDrop": "删除",
+    "cmdClearDrops": "清除",
+    "cmdClearRates": "清除 %",
+    "lblSumStatus": "100%"
+  },
+  "tooltips": {
+    "txtSearchGroups": "搜索组...",
+    "txtSearchMonsters": "搜索怪物...",
+    "txtSearchDrops": "搜索掉落..."
+  },
+  "lists": {}
+}

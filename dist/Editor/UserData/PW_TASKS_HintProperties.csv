@@ -1,0 +1,61 @@
+﻿//property_name={default_val};ru;en;cn
+//Do not add these types: m_ulType, m_ulOccupations, m_ulPremise_Lev_Min, m_ulPremise_Lev_Max, m_ulGender. Because they are already added into the source code.
+
+#MAIN
+m_bGM=0;Для ГМ;For GM;GM
+m_lPremise_Reputation=0;Треб. репутации;Required reputation;需要声望
+
+
+//default_val is not using here
+#AWARD_DATA
+m_ulExp;Опыт;Exp;经验
+m_ulRealmExp;Духовное знание;Realm exp;境界神识
+m_bExpandRealmLevelMax;Увеличить макс. уровень неба;Expand Realm Level Max;展开境界最大值
+m_ulNewTask;Акт. квест;New task;新任务
+m_ulSP;Дух;SP;元神
+m_lReputation;Репутация;Reputation;声望
+m_ulNewPeriod;Статус;New Period;新历史进程
+m_ulNewRelayStation;Точка телепорта;New Relay Station;新的中转站
+m_ulStorehouseSize;Размер хранилища;Storage Size;仓库大小
+m_ulStorehouseSize2;Размер хранилища 2;Storage Size 2;仓库大小 2
+m_ulStorehouseSize3;Размер хранилища 3;Storage Size 3;仓库大小 3
+m_ulStorehouseSize4;Размер хранилища 4;Storage Size 4;仓库大小 4
+m_lInventorySize;Размер инвентаря;Inventory Size;库存大小
+m_ulPetInventorySize;Размер клетки питомцев;Pet Inventory Size;宠物库存大小
+m_ulFuryULimit;Ярость;Fury U Limit;狂暴限制
+m_ulTransWldId;Телепорт;Trans PT;传送
+m_lMonsCtrl;Триггер;Mons Ctrl;Monster Trigger
+m_bTrigCtrl;Запустить контроллер;Trigger Ctrl;Trigger Controller
+m_bUseLevCo;Награда зависит от уровня;Use Lev Co;该奖励取决于等级
+m_bDivorce;Развести;Divorce;离婚
+m_bSendMsg;Отправить сообщение;Send Msg;发送消息
+m_nMsgChannel;Канал сообщений;Msg Chanel;消息频道
+m_bAwardDeath;Убить персонажа;Award Death;死亡奖励
+m_ulDividend;Ивент голд;Dividend;鸿利
+m_bAwardSkill;Активировать скилл;Award Skill;奖励技能
+m_iAwardSkillID;ID активируемого скилла;Award Skill ID;奖励技能ID
+m_iAwardSkillLevel;Уровень активируемого скилла;Award Skill Level;奖励技能等级
+m_iSoloTowerChallengeScore;Очки соло башни;Solo Tower Challenge Score;单人爬塔挑战分数
+m_ulSpecifyContribTaskID;Добавить вклад в квест;Specify Contrib Task ID;指定Contrib任务ID
+m_ulSpecifyContribSubTaskID;Добавить вклад в под квест;Specify Contrib Sub Task ID;指定Contrib Sub Task ID
+m_ulSpecifyContrib;Добавляемый вклад;Specify Contrib;指定Contrib
+m_ulContrib;Вклад;Contrib;Contrib
+m_ulRandContrib;Случайный вклад;Rand Contrib;Rand贡献
+m_ulLowestcontrib;Минимальное кол-во вклада;Lowest Сontrib;最低的贡献
+m_iFactionContrib;Вклад клана;Faction Contrib;帮派贡献
+m_iFactionExpContrib;Очки строительства клана;Faction Exp Contrib;帮派贡献分数
+m_bMulti;Умножить награды;Multi;多
+m_nNumType;Тип умножения;Num Type;数字类型
+m_iForceContribution;Подвиги фракции;Force Contribution;力量贡献
+m_iForceReputation;Престиж фракции;Force Reputation;强制声望
+m_iForceActivity;Активность фракции;Force Activity;强制活动
+m_iForceSetRepu;Задать престиж фракции;Force Set Repu;力量集Repu
+m_iTaskLimit;Размер списка заданий;Task Limit;任务限制
+m_iLeaderShip;Увеличить уровень контроля;Leader Ship;领导
+m_iWorldContribution;Очки активности;World Contribution;世界贡献
+m_bCreateHome;Создать дом;Create Home;创建家园
+AwardLeaveCarrier;Покинуть транспорт;Award Leave Carrier;颁奖假载体
+AwardFactionMoney;Золото гильдии;Award Faction Money;奖励金钱
+AwardFactionPersonScore;Личные очки гильдии;Award Faction Person Score;奖励派系人员得分
+AwardFactionTarget;Цель гильдии;Award Faction Target;奖励帮派目标
+SubmitRankScore;Отправить очки в рейтинг;Submit Rank Score;提交排名分数

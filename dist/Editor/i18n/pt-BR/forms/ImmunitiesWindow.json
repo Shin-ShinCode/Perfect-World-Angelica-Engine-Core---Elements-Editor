@@ -1,0 +1,34 @@
+{
+  "controls": {
+    "cmdok": "Confirmar [Enter]",
+    "label2": "Máscara:",
+    "checkBox7": "Ataque",
+    "checkBox14": "Divisão (redução percentual de HP)",
+    "checkBox12": "Maldição (Chama Celestial)",
+    "checkBox13": "Repulsão",
+    "checkBox10": "Enraizamento",
+    "checkBox11": "Silêncio",
+    "checkBox8": "Sono",
+    "checkBox9": "Lentidão",
+    "cmdUncheckAll": "Nenhum",
+    "cmdCheckAll": "Todos",
+    "cmdcancel": "Cancelar [Esc]",
+    "checkBox5": "Fogo",
+    "checkBox6": "Terra",
+    "checkBox3": "Madeira",
+    "checkBox4": "Água",
+    "checkBox1": "Ataque físico",
+    "checkBox2": "Metal",
+    "checkBox15": "Somente o invocador pode ser atacado",
+    "checkBox16": "Penetração de imunidade",
+    "checkBox17": "Desconhecido 2",
+    "checkBox18": "Imunidade a sangramento",
+    "checkBox19": "Estado negativo",
+    "checkBox20": "Itens derrubados"
+  },
+  "tooltips": {
+    "cmdUncheckAll": "Desmarcar tudo...",
+    "cmdCheckAll": "Marcar tudo..."
+  },
+  "lists": {}
+}

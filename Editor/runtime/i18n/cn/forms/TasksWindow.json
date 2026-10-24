@@ -1,0 +1,13 @@
+{
+  "controls": {
+    "label1": "选择或输入 ID：",
+    "cmdOk": "选择 [回车]",
+    "clmName": "名称",
+    "clmID": "请选择或输入 ID：",
+    "cmdCancel": "取消[ESC]"
+  },
+  "tooltips": {
+    "items": "单击 2 时间到选择"
+  },
+  "lists": {}
+}

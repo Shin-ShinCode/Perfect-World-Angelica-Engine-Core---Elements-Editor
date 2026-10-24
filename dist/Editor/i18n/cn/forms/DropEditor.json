@@ -1,0 +1,28 @@
+{
+  "controls": {
+    "clmID": "请选择或输入 ID：",
+    "clmItemName": "物品名称",
+    "clmProb": "概率",
+    "clmFixProb": "修复",
+    "cmdAdd": "添加",
+    "label4": "概率的 3 物品:",
+    "Fix3": "修复",
+    "label3": "概率的 2 物品:",
+    "Fix2": "修复",
+    "label2": "概率的 1 物品:",
+    "Fix1": "修复",
+    "label1": "概率的 0 物品:",
+    "Fix0": "修复",
+    "CommonProbability": "100%",
+    "cmdDel": "删除",
+    "cmdok": "保存",
+    "cmdcancel": "取消",
+    "cmdSort": "排序",
+    "label5": "掉落循环次数：",
+    "cmdSetEqualsProbs": "Ʃ 100%"
+  },
+  "tooltips": {
+    "chkAutoSort": "自动排序"
+  },
+  "lists": {}
+}

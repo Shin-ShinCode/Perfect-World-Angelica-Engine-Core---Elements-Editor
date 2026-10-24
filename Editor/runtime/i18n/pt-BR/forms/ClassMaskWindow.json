@@ -1,0 +1,24 @@
+{
+  "controls": {
+    "checkBox_BM": "Guerreiro",
+    "checkBox_WIZ": "Mago",
+    "checkBox_PSY": "Psíquico",
+    "checkBox_VEN": "Feiticeiro",
+    "checkBox_BAR": "Bárbaro",
+    "checkBox_AS": "Mercenário",
+    "checkBox_AR": "Arqueiro",
+    "checkBox_CLE": "Sacerdote",
+    "checkBox_SE": "Arcano",
+    "checkBox_MY": "Místico",
+    "cmdok": "Confirmar [Enter]",
+    "label2": "Máscara:",
+    "cmdCheckAll": "Todos",
+    "cmdUncheckAll": "Nenhum",
+    "checkBox_new2": "Sombras",
+    "checkBox_new1": "Raça espiritual comum",
+    "checkBox_new4": "Fada Lunar [1.6.0]",
+    "checkBox_new3": "Lâmina Sombria [1.6.0]"
+  },
+  "tooltips": {},
+  "lists": {}
+}

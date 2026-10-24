@@ -1,0 +1,25 @@
+{
+  "controls": {
+    "RecipesPreview": "通用数据编辑器:: 格预览",
+    "mnuUndo": "撤消",
+    "mnuRedo": "返回",
+    "lblPreview": "预览",
+    "label8": "取消",
+    "label9": "生产",
+    "lblProfessionLvl": "等级",
+    "lblProfession": "当前生产技能",
+    "mnuGoToItem": "查看项目",
+    "mnuChangeItem": "更改项目",
+    "mnuDeleteItem": "删除",
+    "mnuAddItem": "添加",
+    "txtSkillName": "生产技能",
+    "lblCount": "数量",
+    "lblSkill": "技能",
+    "lblLv": "等级",
+    "lblMatter": "物品",
+    "lblIsNotRecipes": "RAE",
+    "lblHelp": "帮助"
+  },
+  "tooltips": {},
+  "lists": {}
+}

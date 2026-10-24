@@ -1,0 +1,16 @@
+{
+  "controls": {
+    "cmdcancel": "取消",
+    "cmdApply": "应用",
+    "grpOwner": "所有者",
+    "grpOptions": "选项",
+    "chkEncryptElements": "加密元素.数据 (PW)",
+    "chkAllUsersCanEditPermissions": "所有用户均可编辑权限",
+    "grpAllowedUsersList": "允许的用户 (登录名)",
+    "cmdDelete": "删除",
+    "cmdAdd": "添加",
+    "clmUsername": "用户"
+  },
+  "tooltips": {},
+  "lists": {}
+}

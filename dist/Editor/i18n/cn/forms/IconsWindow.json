@@ -1,0 +1,11 @@
+{
+  "controls": {
+    "IconsWindow": "图标选择器［ESC－取消］",
+    "cmdCancel": "取消",
+    "cmdOK": "选择"
+  },
+  "tooltips": {
+    "highlighter": "当前图标"
+  },
+  "lists": {}
+}

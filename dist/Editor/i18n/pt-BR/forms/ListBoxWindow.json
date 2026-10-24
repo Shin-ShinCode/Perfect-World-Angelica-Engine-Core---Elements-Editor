@@ -1,0 +1,10 @@
+{
+  "controls": {
+    "cmdOk": "Selecionar [Enter]",
+    "cmdAll": "Todos",
+    "cmdNone": "Nenhum",
+    "cmdCancel": "Cancelar"
+  },
+  "tooltips": {},
+  "lists": {}
+}

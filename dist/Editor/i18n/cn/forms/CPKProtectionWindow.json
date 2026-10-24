@@ -1,0 +1,15 @@
+{
+  "controls": {
+    "cmdUnprotectCPK": "解除 CPK 保护",
+    "cmdProtectCPK": "保护 CPK",
+    "grpCPKProtection": "CPK 保护",
+    "chkIgnoreProtectionChecking": "忽略保护检查",
+    "lblKey": "密钥",
+    "lblPath": "路径"
+  },
+  "tooltips": {
+    "txtCpkKey": "CPK 密钥",
+    "txtCpkFN": "CPK 路径, C:\\\\)"
+  },
+  "lists": {}
+}

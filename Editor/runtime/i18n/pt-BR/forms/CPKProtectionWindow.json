@@ -1,0 +1,15 @@
+{
+  "controls": {
+    "cmdUnprotectCPK": "Remover proteção do CPK",
+    "cmdProtectCPK": "Proteger CPK",
+    "grpCPKProtection": "Proteção de CPK",
+    "chkIgnoreProtectionChecking": "Ignorar verificação de proteção",
+    "lblKey": "Chave",
+    "lblPath": "Caminho"
+  },
+  "tooltips": {
+    "txtCpkKey": "Chave do CPK",
+    "txtCpkFN": "Caminho do CPK, C:\\\\)"
+  },
+  "lists": {}
+}

@@ -1,0 +1,17 @@
+{
+  "controls": {
+    "ConfigWindow": "配置编辑器",
+    "label4": "对话列表索引：",
+    "addRowToolStripMenuItem": "添加行",
+    "deleteRowToolStripMenuItem": "删除行",
+    "Column1": "名称",
+    "Column2": "类型",
+    "button2": "新增",
+    "label3": "列表：",
+    "button1": "删除",
+    "label2": "偏移字节数：",
+    "label1": "列表名称："
+  },
+  "tooltips": {},
+  "lists": {}
+}

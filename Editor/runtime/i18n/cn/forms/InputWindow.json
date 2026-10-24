@@ -1,0 +1,9 @@
+{
+  "controls": {
+    "cmdCancel": "取消[ESC]",
+    "cmdAccept": "确认 [回车]",
+    "lblCaption": "请在此处输入数据："
+  },
+  "tooltips": {},
+  "lists": {}
+}

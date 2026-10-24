@@ -1,0 +1,31 @@
+{
+  "controls": {
+    "PathEditor": "Editor de dados: Editor de caminhos",
+    "toolStripMenuItem1": "Arquivo",
+    "mnuOpen": "Abrir",
+    "mnuSave": "Salvar",
+    "mnuExit": "Sair",
+    "cmdExport": "Exportar",
+    "cmdImport": "Importar",
+    "lblSearch": "Pesquisar:",
+    "cmdFindNext": "Localizar próximo",
+    "TimeStamp": "13 de fevereiro de 2014",
+    "cmdClose": "Fechar",
+    "mnuAdd": "Adicionar",
+    "mnuAdvancedChanging": "Alterar caminho (avançado)",
+    "mnuAdvancedChangingID": "Alterar ID (avançado)",
+    "mnuDelete": "Excluir",
+    "mnuExport": "Exportar",
+    "clmPath": "Caminho",
+    "lblTimeStamp": "Data e hora:",
+    "cmdDelete": "Excluir",
+    "cmdAdd": "Adicionar",
+    "lblPath": "Arquivo",
+    "cmdOpen": "Abrir",
+    "cmdSave": "Salvar",
+    "menuStrip_mainMenu": "Menu principal",
+    "clmID": "Selecione ou digite o ID:"
+  },
+  "tooltips": {},
+  "lists": {}
+}

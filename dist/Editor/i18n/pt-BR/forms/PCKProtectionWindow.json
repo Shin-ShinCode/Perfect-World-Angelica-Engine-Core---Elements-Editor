@@ -1,0 +1,43 @@
+{
+  "controls": {
+    "cmdUnprotectPCK": "Remover proteção",
+    "cmdProtectPCK": "Proteger",
+    "grpPCKProtection": "2. Proteção de arquivos PCK",
+    "grpOptions": "Opções",
+    "chkCreateBackups": "Criar cópias de segurança",
+    "chkSkipErrors": "Ignorar erros",
+    "grpExtraFiles": "Proteção de arquivos adicionais",
+    "txtCustomFile2": "data\\gshop2.data",
+    "chkProtectCustomFile2": "Incluir:",
+    "chkProtectGShop": "Incluir gshop.data no arquivo:",
+    "txtCustomFile": "data\\gshop1.data",
+    "chkProtectCustomFile": "Incluir:",
+    "chkProtectPathData": "Incluir path.data no arquivo:",
+    "chkProtectTasks": "Indisponível",
+    "lblPath": "Caminho",
+    "chkProtectServerlist": "Indisponível",
+    "chkProtectElements": "Indisponível",
+    "lblProtectionLevel": "Nível de proteção:",
+    "cmdSaveKey": "Salvar chave do launcher alexdnepro",
+    "grpElementClient": "3. Corrigir elementclient.exe",
+    "label2": "Caminho",
+    "button2": "Proteger",
+    "button3": "Remover proteção",
+    "chkPatchElementsReading": "Corrigir quantidade de elementos",
+    "lblProject": "Nome do projeto:",
+    "grpKey": "4. Chave de criptografia",
+    "cmdNextKey": "Exibir chave do launcher alexdnepro",
+    "lblGame": "Jogo:",
+    "grpProjectSettings": "1. Configurações",
+    "grpResult": "Resultado",
+    "cmdRestoreFiles": "Abrir pasta das cópias de segurança",
+    "chkPatchTasks": "Corrigir tarefas e quantidade de tarefas"
+  },
+  "tooltips": {
+    "txtClientPath": "Você pode especificar o caminho de uma pasta (por exemplo, C:\\)",
+    "txtKey": "Chave exclusiva de criptografia do arquivo (senha)",
+    "txtElSign": "Assinatura completa do Elements (versão)",
+    "numLicenseID": "ID da licença"
+  },
+  "lists": {}
+}

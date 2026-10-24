@@ -1,0 +1,7 @@
+#EQUIPMENT_ADDON
+num_params;1;5
+
+#MONSTER_ESSENCE
+drop_times;0;20
+skills_$_level;0;15
+skill_hp$_$_level;0;15

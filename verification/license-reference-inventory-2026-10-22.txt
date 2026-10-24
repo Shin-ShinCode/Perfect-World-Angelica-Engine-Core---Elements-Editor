@@ -1,0 +1,225 @@
+Editor/src_deobf\ACE.ActionHistory\ActionsHistoryViewer.cs:159:			if (CommonStorage.License.Special.TrialFunctionsMask == 1L && !CommonStorage.License.Special.AHistoryViewer)
+Editor/src_deobf\ACE.Addons\AddonsEditor.cs:2830:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.Addons\AddonsEditor.cs:3164:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.Classes\ELEMENTS_REFERENCES.cs:108:		if (ReferencesSpecial.TryGetValue(int_0, out value))
+Editor/src_deobf\ACE.Classes\ELEMENTS_REFERENCES.cs:160:		if (ReferencesSpecial.TryGetValue(int_0, out value))
+Editor/src_deobf\ACE.Classes\ELEMENTS_REFERENCES.cs:302:		if (ReferencesSpecial.TryGetValue(int_0, out value))
+Editor/src_deobf\ACE.Classes\ELEMENTS_REFERENCES.cs:370:		if (ReferencesSpecial.TryGetValue(int_0, out value) && value.IsItemHasReferences(item_id))
+Editor/src_deobf\ACE.Classes\ELEMENTS_REFERENCES.cs:468:			referencesSpecial.Clear();
+Editor/src_deobf\ACE.Cpk\CPKProtectionWindow.cs:82:		if (CommonStorage.License.GetFeatureEntitlementsByName(Class16.smethod_0(1648893727)) || LICENSE_INFO.Info.LicenseType == LICENSE_TYPE.DEV)
+Editor/src_deobf\ACE.Elements.eListCollection\eListCollection.cs:2237:		int num = ((References.ReferencesSpecial.ContainsKey(iteminfo_0.pos.int_0) && References.IsItemHasReferences(iteminfo_0.pos.int_0, iteminfo_0.item_type, iteminfo_0.id)) ? 1 : 0);
+Editor/src_deobf\ACE.Elements.eListCollection\eListCollection.cs:2246:		if (References.ReferencesSpecial.ContainsKey(itempos_0.int_0))
+Editor/src_deobf\ACE.Elements.eListCollection\eListCollection.cs:8218:		if (License.Special.TrialFunctionsMask == 1L && !License.Special.PW.PreviewRefine)
+Editor/src_deobf\ACE.Elements.eListCollection\eListCollection.cs:8220:			License.Special.PW.PreviewRefine = true;
+Editor/src_deobf\ACE.Elements.eListCollection\eListCollection.cs:8458:			if (paramsClass.PreviewRefine && paramsClass.PreviewRefineLevel > 0 && License.Special.PW.PreviewRefine)
+Editor/src_deobf\ACE.Elements.eListCollection\eListCollection.cs:8521:			if (paramsClass2.PreviewRefine && License.Special.PW.PreviewRefine)
+Editor/src_deobf\ACE.Elements.eListCollection\eListCollection.cs:8593:				if (paramsClass3.PreviewRefine && License.Special.PW.PreviewRefine)
+Editor/src_deobf\ACE.Elements.eListCollection\eListCollection.cs:8643:				if (paramsClass4.PreviewRefine && License.Special.PW.PreviewRefine)
+Editor/src_deobf\ACE.Elements.eListCollection\eListCollection.cs:8832:			License.Special.PW.PreviewRefine = false;
+Editor/src_deobf\ACE.Elements.eListCollection\eListCollection.cs:10684:		if (!Desc.bOnlyRefines && (License.Special.PW.PreviewRefine || License.Special.TrialFunctionsMask == 1L))
+Editor/src_deobf\ACE.Elements.eListCollection\eListCollection.cs:18075:			if (referencesSpecial != null && referencesSpecial.ContainsKey(int_0))
+Editor/src_deobf\ACE.Elements.eListCollection\eListCollection.cs:18104:			if (referencesSpecial != null && referencesSpecial.ContainsKey(ItemPos.int_0))
+Editor/src_deobf\ACE.Elements.eListCollection\eListCollection.cs:18138:			if (referencesSpecial != null && referencesSpecial.ContainsKey(ItemPos.int_0))
+Editor/src_deobf\ACE.DynamicObjects\DynamicObjectsEditorForm.cs:777:		if (CommonStorage.License.Special.ModelPreview && CommonStorage.Params.ShowModelPreview)
+Editor/src_deobf\ACE.Elements\TranslationWindow.cs:142:		if (CommonStorage.License.Special.UseOpenAITranslator || !string.IsNullOrWhiteSpace(CommonStorage.AParams.OpenAIApiKey))
+Editor/src_deobf\ACE.Elements\RecipesPreview.cs:3005:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.Elements\RecipesPreview.cs:3031:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.Elements\RecipesPreview.cs:3090:				if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.Elements\RecipesPreview.cs:3242:			if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.Elements\RecipesPreview.cs:3352:				if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.Elements\RecipesPreview.cs:3429:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.Elements\RecipesPreview.cs:3456:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.Elements\RecipesPreview.cs:3492:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.Elements\RecipesPreview.cs:3548:			if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.Elements\RecipesPreview.cs:3610:			if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.Domain2\Domain2Editor.cs:1411:		if (!CommonStorage.License.Special.domain2_mapview)
+Editor/src_deobf\ACE.Elements\ProbsEditor.cs:144:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.Elements\ProbsEditor.cs:1461:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.Elements\ItemsWindow.cs:828:			if (CommonStorage.License.Special.ModelPreview && CommonStorage.Params.ShowModelPreview)
+Editor/src_deobf\ACE.Elements\ItemsWindow.cs:887:			if (CommonStorage.License.Special.ModelPreview && CommonStorage.Params.ShowModelPreview)
+Editor/src_deobf\ACE.Elements\OperationsByID.cs:268:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.Elements\ItemsToolTip.cs:670:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.Elements\ItemsToolTip.cs:1335:					if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.Elements\ItemsToolTip.cs:1453:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.Elements\DropEditor.cs:949:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.Elements\DropEditor.cs:960:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.Elements\DropEditor.cs:1158:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.Elements\ChangeValuesWindow.cs:155:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.Elements\ChangeValuesWindow.cs:290:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.Classes\REFERENCE_ENTRY.cs:168:			if (oSpecial != null && oSpecial.GetType() == typeof(float[]))
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:8698:		if (license_INFO_0.Special.region_editor)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:8813:		if (LICENSE_INFO.Info.LicenseType == LICENSE_TYPE.LITE)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:8821:		bool visible = (flag = license_INFO_0.GetFeatureEntitlementsByName(Class16.smethod_0(1648893727)) || LICENSE_INFO.Info.LicenseType == LICENSE_TYPE.DEV) || method_470(Class16.smethod_0(1648906367));
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:9227:		if (!license_INFO_0.Special.precinct_editor)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:11395:			if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:11487:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:11506:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:12695:			if (!license_INFO_0.GetFeatureEntitlementsByName(Class16.smethod_0(1648893727)) && LICENSE_INFO.Info.LicenseType != LICENSE_TYPE.DEV)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:14788:		if (b != 0 && LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:15722:		else if (license_INFO_0.Special.EnableFieldNameChange && e.ColumnIndex == 0 && AParams.EnableFieldNameChange)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:16489:									if (license_INFO_0.Special.ModelSelection)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:20598:			if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.PROFESSIONAL)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:20668:			textBox_7.Enabled = license_INFO_0.Special.Ultimate;
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:21455:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:21807:			if (lICENSE_INFO.bActivatedOnServer && lICENSE_INFO.SecretDecoder != null && !string.IsNullOrWhiteSpace(lICENSE_INFO.UserName) && !string.IsNullOrWhiteSpace(LICENSE_INFO.Info.license_md5) && license_INFO_0.UserName.Length >= 2)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:22107:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:22789:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:22822:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:23065:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:24250:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:24599:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:25355:		if (!license_INFO_0.bActivatedOnServer)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:25360:				if (license_INFO_0.bActivatedOnServer)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:25767:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:25801:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:26546:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:26572:		bool flag = (flag2 = license_INFO_0.GetFeatureEntitlementsByName(Class16.smethod_0(1648893727)) || LICENSE_INFO.Info.LicenseType == LICENSE_TYPE.DEV);
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:26878:			else if (eListCollection_1 != null && license_INFO_0.Special.EnableFieldNameChange)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:27521:		if (!license_INFO_0.Special.nmd_export)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:27649:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:28136:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:30474:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:30808:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:30850:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:30896:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:30955:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:30991:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:31322:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:32211:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:32606:		if (license_INFO_0.Special.pck_editor)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:32620:		if (license_INFO_0.Special.worldtargets_editor)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:32634:		if (license_INFO_0.Special.tasks_npc_editor)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:32742:		if (license_INFO_0.Special.domain_editor)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:32756:		if (license_INFO_0.Special.bon_editor)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:32770:		if (license_INFO_0.Special.icon_editor)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:32784:		if (license_INFO_0.Special.aipolicy_editor)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:32854:		if (!license_INFO_0.bActivatedOnServer)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:33451:					if (method_79(fileName, license_INFO_0.Special.PW.ElCorruption, ELEMENTS_SAVE_TYPE.PROTECT_WITH_LOGIN))
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:33666:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:33775:			if (license_INFO_0.Special.ModelSelection && MODEL_VIEWER.CurrentPck != null)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:36826:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:36849:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:36870:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:37150:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:37192:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:38366:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:38542:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:39222:				if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.PROFESSIONAL)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:39354:				if (CommonStorage.AParams.LockFieldsScales && LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.PROFESSIONAL)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:39612:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:42500:		if (license_INFO_0.Special.bmd_editor)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:42577:			if (LICENSE_INFO.Info.LicenseType != LICENSE_TYPE.DEV && !license_INFO_0.Special.dev && !license_INFO_0.GetFeatureEntitlementsByName(Class16.smethod_0(1648893727)))
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:43777:			if (!license_INFO_0.Special.DisableSC && smethod_4(message_0.WParam) == 32772 && !backgroundWorker_0.IsBusy && !bool_6)
+Editor/src_deobf\ACE.MainWindow\MainWindow.cs:43965:		if (LICENSE_INFO.Info.LicenseType < LICENSE_TYPE.STANDART)
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:243:	public bool bActivatedOnServer;
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:306:			bActivatedOnServer = false;
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:347:		bActivatedOnServer = true;
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:378:				bActivatedOnServer = true;
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:388:				bActivatedOnServer = false;
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:493:			Special.PW.ElCorruption = GetFeatureEntitlementsByName(Class16.smethod_0(1649048629));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:494:			Special.PW.PreviewRefine = GetFeatureEntitlementsByName(Class16.smethod_0(1649048640));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:495:			Special.PW.TasksJoining = GetFeatureEntitlementsByName(Class16.smethod_0(1649048668));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:499:			Special.PCK.Elements = GetFeatureEntitlementsByName(Class16.smethod_0(1649048687));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:500:			Special.PCK.GShop = GetFeatureEntitlementsByName(Class16.smethod_0(1649048697));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:501:			Special.PCK.Tasks = GetFeatureEntitlementsByName(Class16.smethod_0(1649048712));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:502:			Special.PCK.Serverlist = GetFeatureEntitlementsByName(Class16.smethod_0(1649048735));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:503:			Special.PCK.CustomFile = GetFeatureEntitlementsByName(Class16.smethod_0(1649048744));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:504:			Special.PCK.PathData = GetFeatureEntitlementsByName(Class16.smethod_0(1649048761));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:505:			Special.PCK.CustomFile2 = GetFeatureEntitlementsByName(Class16.smethod_0(1649048779));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:506:			Special.PCK.AllowAnyProject = GetFeatureEntitlementsByName(Class16.smethod_0(1649048805));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:508:		Special.Ultimate = GetFeatureEntitlementsByName(Class16.smethod_0(1649048819));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:509:		Special.AHistoryViewer = GetFeatureEntitlementsByName(Class16.smethod_0(1649048834));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:510:		Special.ElProtectionByLogin = GetFeatureEntitlementsByName(Class16.smethod_0(1649048863));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:511:		Special.RefactoringItemsID = GetFeatureEntitlementsByName(Class16.smethod_0(1649048881));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:512:		Special.ElementsUltimateProtection = GetFeatureEntitlementsByName(Class16.smethod_0(1649048906));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:513:		Special.UseOpenAITranslator = GetFeatureEntitlementsByName(Class16.smethod_0(1649048939));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:514:		Special.ModelPreview = GetFeatureEntitlementsByName(Class16.smethod_0(1649048973));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:515:		Special.ModelSelection = GetFeatureEntitlementsByName(Class16.smethod_0(1649048984));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:516:		Special.ModelImport = GetFeatureEntitlementsByName(Class16.smethod_0(1649049013));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:517:		Special.EnableFTSaving = GetFeatureEntitlementsByName(Class16.smethod_0(1649049031));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:518:		Special.EnableFieldNameChange = GetFeatureEntitlementsByName(Class16.smethod_0(1649049052));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:519:		Special.DisableSC = GetFeatureEntitlementsByName(Class16.smethod_0(1649049072));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:520:		Special.dev = GetFeatureEntitlementsByName(Class16.smethod_0(1648893727));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:521:		Special.livenpceditor = GetFeatureEntitlementsByName(Class16.smethod_0(1649048064));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:522:		Special.npcgen_mapview = GetFeatureEntitlementsByName(Class16.smethod_0(1649048092));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:523:		Special.precinct_editor = GetFeatureEntitlementsByName(Class16.smethod_0(1649048105));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:524:		Special.region_editor = GetFeatureEntitlementsByName(Class16.smethod_0(1649048135));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:525:		Special.domain_editor = GetFeatureEntitlementsByName(Class16.smethod_0(1649048147));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:526:		Special.domain2_mapview = GetFeatureEntitlementsByName(Class16.smethod_0(1649048175));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:527:		Special.aipolicy_editor = GetFeatureEntitlementsByName(Class16.smethod_0(1649048197));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:528:		Special.worldtargets_editor = GetFeatureEntitlementsByName(Class16.smethod_0(1649048211));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:529:		Special.tasks_npc_editor = GetFeatureEntitlementsByName(Class16.smethod_0(1649048245));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:530:		Special.bon_editor = GetFeatureEntitlementsByName(Class16.smethod_0(1649048268));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:531:		Special.pck_editor = GetFeatureEntitlementsByName(Class16.smethod_0(1649048285));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:532:		Special.nmd_export = GetFeatureEntitlementsByName(Class16.smethod_0(1649048302));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:533:		Special.bmd_editor = GetFeatureEntitlementsByName(Class16.smethod_0(1649048319));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:534:		Special.dyn_tasks_editor = GetFeatureEntitlementsByName(Class16.smethod_0(1649048328));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:535:		Special.icon_editor = GetFeatureEntitlementsByName(Class16.smethod_0(1649048359));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:536:		Special.pck_unpack = GetFeatureEntitlementsByName(Class16.smethod_0(1649048369));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:537:		Special.ui_xml_editor = GetFeatureEntitlementsByName(Class16.smethod_0(1649048386));
+Editor/src_deobf\ACE.License\LICENSE_INFO.cs:538:		Special.pw_map_editor = GetFeatureEntitlementsByName(Class16.smethod_0(1649048414));
+Editor/src_deobf\ACE.Models\MODEL_VIEWER.cs:339:			if (CommonStorage.License.Special.ModelSelection)
+Editor/src_deobf\ACE.sTASKedit.MainEditor\MainEditor.cs:28605:		toolTip_Special.AutoPopDelay = 90000;
+Editor/src_deobf\ACE.sTASKedit.MainEditor\MainEditor.cs:28606:		toolTip_Special.InitialDelay = 50;
+Editor/src_deobf\ACE.sTASKedit.MainEditor\MainEditor.cs:28607:		toolTip_Special.ReshowDelay = 100;
+Editor/src_deobf\ACE.sTASKedit.MainEditor\MainEditor.cs:28608:		toolTip_Special.UseAnimation = false;
+Editor/src_deobf\ACE.sTASKedit.MainEditor\MainEditor.cs:28609:		toolTip_Special.UseFading = false;
+Editor/src_deobf\ACE.sTASKedit.MainEditor\MainEditor.cs:30859:			toolTip_Special.Show(GProD.GetBuffDesc(int_), control, point.X, point.Y);
+Editor/src_deobf\ACE.sTASKedit.MainEditor\MainEditor.cs:30863:			toolTip_Special.Hide(control);
+Editor/src_deobf\ACE.sTASKedit.MainEditor\MainEditor.cs:30903:			toolTip_Special.Show(GProD.GetTaskDescriptionDesc(int_), control, point.X, point.Y);
+Editor/src_deobf\ACE.sTASKedit.MainEditor\MainEditor.cs:30907:			toolTip_Special.Hide(control);
+Editor/src_deobf\ACE.sTASKedit.MainEditor\MainEditor.cs:30917:			toolTip_Special.Show(GProD.GetRelayStationName(int_), control, point.X, point.Y);
+Editor/src_deobf\ACE.sTASKedit.MainEditor\MainEditor.cs:30921:			toolTip_Special.Hide(control);
+Editor/src_deobf\ACE.sTASKedit.MainEditor\MainEditor.cs:30931:			toolTip_Special.Show(GProD.GetTransformedFormName(byte_), control, point.X, point.Y);
+Editor/src_deobf\ACE.sTASKedit.MainEditor\MainEditor.cs:30935:			toolTip_Special.Hide(control);
+Editor/src_deobf\ACE.sTASKedit.MainEditor\MainEditor.cs:30945:			toolTip_Special.Show(Extensions.DecodingGrowthTargetMask((uint)int_), control, point.X, point.Y);
+Editor/src_deobf\ACE.sTASKedit.MainEditor\MainEditor.cs:30949:			toolTip_Special.Hide(control);
+Editor/src_deobf\ACE.sTASKedit.MainEditor\MainEditor.cs:38239:		toolTip_Special.Hide((Control)sender);
+Editor/src_deobf\ACE.sTASKedit.MainEditor\MainEditor.cs:41845:			toolTip_Special.Show(GProD.GetInstanceName(id), (Control)sender, point.X, point.Y);
+Editor/src_deobf\ACE.sTASKedit.MainEditor\MainEditor.cs:41849:			toolTip_Special.Hide((Control)sender);
+Editor/src_deobf\ACE.sTASKedit.MainEditor\MainEditor.cs:44660:			toolTip_Special.Show(string_8, (Control)object_0, point.X, point.Y);
+Editor/src_deobf\ACE.sTASKedit.MainEditor\MainEditor.cs:44670:		toolTip_Special.Hide((Control)sender);
+Editor/src_deobf\ACE.sTASKedit.MainEditor\MainEditor.cs:45099:			toolTip_Special.Hide((Control)sender);
+Editor/src_deobf\ACE.sTASKedit.MainEditor\MainEditor.cs:45146:			toolTip_Special.Hide((Control)sender);
+Editor/src_deobf\ACE.NpcGen.NPCGenEditorForm\NPCGenEditorForm.cs:8618:		if (CommonStorage.License != null && CommonStorage.License.Special.livenpceditor)
+Editor/src_deobf\ACE.NpcGen.NPCGenEditorForm\NPCGenEditorForm.cs:9725:		if (CommonStorage.License != null && CommonStorage.License.Special.npcgen_mapview && list_8 != null)
+Editor/src_deobf\ACE.NpcGen.NPCGenEditorForm\NPCGenEditorForm.cs:11511:		bool visible = CommonStorage.License != null && CommonStorage.License.Special.npcgen_mapview;
+Editor/src_deobf\ACE.NpcGen.NPCGenEditorForm\NPCGenEditorForm.cs:11512:		bool visible2 = CommonStorage.License != null && CommonStorage.License.Special.livenpceditor;
+Editor/src_deobf\ACE.sTASKedit.tasks\GlobalData.cs:968:		if (LICENSE_INFO.Info.LicenseType != LICENSE_TYPE.DEV && !CommonStorage.License.Special.dev && !CommonStorage.License.GetFeatureEntitlementsByName(Class16.smethod_0(1648893727)) && !CommonStorage.License.GetFeatureEntitlementsByName(Class16.smethod_0(1649048505)))
+Editor/src_deobf\ACE.sTASKedit.tasks\GlobalData.cs:970:			if (LICENSE_INFO.Info.LicenseType != LICENSE_TYPE.PROFESSIONAL && LICENSE_INFO.Info.LicenseType != LICENSE_TYPE.BRAZILIAN_EDITION && LICENSE_INFO.Info.LicenseType != LICENSE_TYPE.ULTIMATE)
+Editor/src_deobf\ACE.Protectors\ElementsPermissionsEditor.cs:68:			if (!CommonStorage.License.Special.ElProtectionByLogin)
+Editor/src_deobf\ACE.Protectors\ElementsPermissionsEditor.cs:135:			if (CommonStorage.License.Special.ElProtectionByLogin)
+Editor/src_deobf\ACE.Protectors\ElementsPermissionsEditor.cs:158:		byte b2 = (byte)((CommonStorage.License.Special.PW.ElCorruption && eListCollection_0.IsElementsEncrypted) ? 1u : 0u);
+Editor/src_deobf\ACE.Protectors\ElementsPermissionsEditor.cs:171:		if (CommonStorage.License.Special.ElProtectionByLogin)
+Editor/src_deobf\ACE.Protectors\PCKProtectionWindow.cs:348:			if (License.GetFeatureEntitlementsByName(Class16.smethod_0(1648893727)) || LICENSE_INFO.Info.LicenseType == LICENSE_TYPE.DEV)
+Editor/src_deobf\ACE.Protectors\PCKProtectionWindow.cs:1217:		if (CommonStorage.License.Special.PCK.AllowAnyProject)
+Editor/src_deobf\ACE.Protectors\PCKProtectionWindow.cs:1327:		checkBox_2.Enabled = License.Special.PCK.Serverlist;
+Editor/src_deobf\ACE.Protectors\PCKProtectionWindow.cs:1328:		comboBox_1.Enabled = License.Special.PCK.Serverlist;
+Editor/src_deobf\ACE.Protectors\PCKProtectionWindow.cs:1329:		checkBox_1.Enabled = License.Special.PCK.Elements;
+Editor/src_deobf\ACE.Protectors\PCKProtectionWindow.cs:1330:		comboBox_3.Enabled = License.Special.PCK.Elements;
+Editor/src_deobf\ACE.Protectors\PCKProtectionWindow.cs:1331:		checkBox_7.Enabled = License.Special.PCK.GShop;
+Editor/src_deobf\ACE.Protectors\PCKProtectionWindow.cs:1332:		checkBox_5.Enabled = License.Special.PCK.Tasks;
+Editor/src_deobf\ACE.Protectors\PCKProtectionWindow.cs:1333:		comboBox_5.Enabled = License.Special.PCK.Tasks;
+Editor/src_deobf\ACE.Protectors\PCKProtectionWindow.cs:1334:		checkBox_4.Enabled = License.Special.PCK.CustomFile;
+Editor/src_deobf\ACE.Protectors\PCKProtectionWindow.cs:1335:		textBox_1.Enabled = License.Special.PCK.CustomFile;
+Editor/src_deobf\ACE.Protectors\PCKProtectionWindow.cs:1336:		checkBox_3.Enabled = License.Special.PCK.PathData;
+Editor/src_deobf\ACE.Protectors\PCKProtectionWindow.cs:1341:		checkBox_8.Enabled = License.Special.PCK.CustomFile;
+Editor/src_deobf\ACE.Protectors\PCKProtectionWindow.cs:1342:		textBox_3.Enabled = License.Special.PCK.CustomFile2;
+Editor/src_deobf\ACE.Protectors\PCKProtectionWindow.cs:1418:			bool allowAnyProject = License.Special.PCK.AllowAnyProject;
+Editor/src_deobf\ACE.Protectors\PCKProtectionWindow.cs:1954:						if (License.Special.PCK.Serverlist)
+Editor/src_deobf\ACE.Protectors\PCKProtectionWindow.cs:1958:						if (License.Special.PCK.Elements)
+Editor/src_deobf\ACE.Protectors\PCKProtectionWindow.cs:1962:						if (License.Special.PCK.GShop)
+Editor/src_deobf\ACE.Protectors\PCKProtectionWindow.cs:1966:						if (License.Special.PCK.Tasks)
+Editor/src_deobf\ACE.Protectors\PCKProtectionWindow.cs:1970:						if (License.Special.PCK.CustomFile)
+Editor/src_deobf\ACE.Protectors\PCKProtectionWindow.cs:1974:						if (License.Special.PCK.CustomFile2)
+Editor/src_deobf\ACE.Protectors\PCKProtectionWindow.cs:1978:						if (License.Special.PCK.PathData)
+Editor/src_deobf\ACE.Protectors\PCKProtectionWindow.cs:1987:				if (License.Special.PCK.Serverlist)
+Editor/src_deobf\ACE.Protectors\PCKProtectionWindow.cs:1991:				if (License.Special.PCK.Elements)
+Editor/src_deobf\ACE.Protectors\PCKProtectionWindow.cs:1995:				if (License.Special.PCK.GShop)
+Editor/src_deobf\ACE.Protectors\PCKProtectionWindow.cs:1999:				if (License.Special.PCK.Tasks)
+Editor/src_deobf\ACE.Protectors\PCKProtectionWindow.cs:2003:				if (License.Special.PCK.CustomFile)
+Editor/src_deobf\ACE.Protectors\PCKProtectionWindow.cs:2007:				if (License.Special.PCK.CustomFile2)
+Editor/src_deobf\ACE.Protectors\PCKProtectionWindow.cs:2011:				if (License.Special.PCK.PathData)
+Editor/src_deobf\ACE.Protectors\PCKProtectionWindow.cs:2653:		if (License.GetFeatureEntitlementsByName(Class16.smethod_0(1648893727)) || LICENSE_INFO.Info.LicenseType == LICENSE_TYPE.DEV)
+Editor/src_deobf\ACE.Settings\SettingsWindow.cs:615:			byte b = (byte)((CommonStorage.License.Special.PW.PreviewRefine && paramsClass_0.PreviewRefine) ? 1u : 0u);
+Editor/src_deobf\ACE.sTASKedit.Classes\TASKS.cs:63:			int num = (((version = binaryReader.ReadInt32()) == 123 && (CommonStorage.License.GetFeatureEntitlementsByName(Class16.smethod_0(1648893727)) || LICENSE_INFO.Info.LicenseType == LICENSE_TYPE.DEV)) ? 1 : 0);

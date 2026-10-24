@@ -1,0 +1,21 @@
+{
+  "controls": {
+    "clmID": "请选择或输入 ID：",
+    "clmItemName": "名称",
+    "clmValue1": "值 1",
+    "clmValue2": "值 2",
+    "clmProb": "概率",
+    "clmFixProb": "修复",
+    "cmdAdd": "添加",
+    "CommonProbability": "100%",
+    "cmdDel": "删除",
+    "cmdok": "保存",
+    "cmdcancel": "取消",
+    "cmdSort": "排序",
+    "cmdSetEqualsProbs": "Ʃ 100%"
+  },
+  "tooltips": {
+    "chkAutoSort": "自动排序"
+  },
+  "lists": {}
+}

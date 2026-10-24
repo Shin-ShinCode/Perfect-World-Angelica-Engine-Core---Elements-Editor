@@ -1,0 +1,9 @@
+{
+  "controls": {
+    "button3": "下一个差异",
+    "button2": "将文件 2 移到这里",
+    "button1": "将文件 1 移到这里"
+  },
+  "tooltips": {},
+  "lists": {}
+}

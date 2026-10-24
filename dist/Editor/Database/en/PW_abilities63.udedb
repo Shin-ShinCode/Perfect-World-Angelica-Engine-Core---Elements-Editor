@@ -1,0 +1,80 @@
+445	Rip: Has a chance to cause 5,000 bleeding damage over 15 seconds.
+446	Soul Infect: Has a chance to decrease the opponent's maximum HP.
+447	Knock Back: Has a chance to interrupt opponent's channeling and knock it 10 meters back.
+448	Concentrate: Has a chance to gain 20 Chi.
+449	Soul Shatter: Has a chance to dispel opponent's positive buffs.
+451	Slow: Has a chance to slow the opponent. Lv. 1
+455	Slow: Has a chance to slow the opponent. Lv. 2
+459	Slow: Has a chance to slow the opponent. Lv. 3
+453	Pierce: Has a chance to decrease opponent's physical defense. Lv. 1
+457	Pierce: Has a chance to decrease opponent's physical defense. Lv. 2
+461	Pierce: Has a chance to decrease opponent's physical defense. Lv. 1
+1275	Pierce: Has a chance to decrease opponent's physical defense. Lv. 1
+450	Has a chance to stun target for 3 seconds. Lv. 1
+454	Has a chance to stun target for 3 seconds.Lv. 2
+458	Has a chance to stun target for 3 seconds. Lv. 3
+1294	Has a chance to stun target for 3 seconds. Lv. 1
+452	Freeze: Has a chance to freeze the opponent for 3 seconds. Lv. 1
+456	Freeze: Has a chance to freeze the opponent for 3 seconds. Lv. 2
+460	Freeze: Has a chance to freeze the opponent for 3 seconds. Lv. 3
+1295	Freeze: Has a chance to freeze the opponent for 3 seconds. Lv. 1
+1296	Seal: Has a chance to make the target unable to attack for 5 seconds.
+1297	Sacrificial Strike: Has a chance to inflict double damage at the cost of losing 5% HP.
+1276	Distract: Has a chance to decrease opponent's magic defense.
+1277	Fright: Has a chance to decrease target's physical attack.
+1278	Muddle: Has a chance to decrease target's magic attack.
+1279	Atrophy: Has a chance to decrease target's attack rate.
+1280	Stupefy: Has a chance to slow target's channeling.
+1281	Blind: Has a chance to decrease opponent's accuracy.
+1282	Daze: Has a chance to decrease enemy's evasion.
+1283	Toughen: Has a chance to increase physical defense.
+1284	Wisen: Has a chance to increase character's magic defense.
+1285	Slow: Has a chance to slow the opponent.
+1286	Sharpen: Has a chance to increase physical attack.
+1287	Quicken: Has a chance to increase attack rate.
+1288	Nimble: Has a chance to increase accuracy
+1298	Berserk: Has a chance to make the wielder go berserk, increasing physical attack and attack rate along with damage taken.
+1308	Determination: Has a chance to stun opponent for 5 seconds but also freeze yourself for 10 seconds.
+1306	Bless: Has a chance to increase Physical Attack and Physical Defense.
+1289	Regeneration: Has a chance to recover 5% HP.
+1290	Enlighten: Has a chance to recover MP by 5%.
+1299	Meditation: Has a chance to recover HP and MP both by 5%.
+1300	Blood Defect: Has a chance to recover 10%% HP.
+1301	Spirit Defect: Has a chance to recover 10%% MP.
+1309	Holy: Has a chance to recover HP by 5%%, and remove all debuffs.
+1302	Revenge: Has a chance to recover 5% HP, and increase physical attack.
+1303	Comprehend: Has a chance to increase MP by 5% and increase physical attack.
+1291	Gloom: Has a chance to greatly increase physical attack at the cost of losing 5% MP.
+1292	Unrelenting: Has a chance to greatly increase physical attack at the cost of reducing physical defense.
+1307	Faith: Has a chance to recover 5%% HP and increase both physical defense and magic defense.
+1310	Darken: Has a chance to freeze and seal the enemy.
+1304	Spikes: Has a chance to increase physical defense as well as return 25% melee damage to attacker.
+1305	Shield of Chi: Has a chance to cast a shield of Chi around you, which reduces all damage taken by 20%.
+1293	Provoke: Increase your threat level.
+2275	God of Frenzy: Infuses the wielder with divine fury! Has a higher chance to deal double damage. Costs 5% Max HP.
+2276	Armor Crush: Has a higher chance to reduce target's Defense.
+2277	Square Formation: A wonderful battle formation. Has a higher chance to cause Immobilize and Silence effects.
+2278	Death's Will: Has a higher chance to Stun target for 5 seconds. Immobilizes you for 10 seconds.
+2279	Spirit Blackhole: Has a higher chance to dispel target's positive effect.
+2280	Thunder Shocker: Has a higher chance to Stun target for 3 seconds. 
+2281	Soul Concealment: Has a higher chance to make the target unable to attack for 5 seconds.
+2282	Blood Vengeance: Has a higher chance to recover 5% of your HP. Increases your physical attack.
+2283	Frenzied Rage: Has a higher chance to become frenzied. Doubles physical damage, increases attack speed, and increases damage taken.
+2472	Thunder Strike: Has a chance to Freeze the target for 4 seconds, and reduces the target's Physical and Magic defenses. Lasts for 8 seconds.
+2473	Buddha's Strike: Has a chance to cast Sleep on the target for 2 seconds, and reduces the target's Physical Defense and Speed. Lasts for 5 seconds.
+2474	Lord of War: Has a chance to recover 20% of HP, and improves Accuracy and Max HP. Lasts for 8 seconds.
+2475	Furious Dragon: Has a chance to recover 25% of HP, and improves Evasion and Critical Strike rate. Lasts for 5 seconds.
+2476	Melody of the Sword Lord: Has a chance to Seal the target, reduce the target's Speed, and cause the target to take extra damage for 5 seconds.
+2477	Purify Spell: Has a chance to remove debuff when being attacked, and immune to stun and slow, and increase speed by 200%, lasts for 5 seconds.
+2478	Has a 5% chance to activate this skill when being attacked, and increases magic attack by 100%, reduces Channel by 50%, lasts for 6 seconds.
+2479	Infinite: Has a chance to recover 2,100 HP in 9 seconds while being attacked, while increasing Mana by 50 points.
+2480	Fragrance Dance: Has a 2% to activate this skill when being attacked. When activated, your Physical and magic defense is increased by 100% for 10 seconds
+2481	Charming Shadow: Has a 5% to activate this skill when being attacked, and immune to stun, increases movement speed, lasts for 8 seconds.
+2482	Reflect: The weapon is so powerful that there is  20%% chance to reflect a damage to yourself.  Reduces your Max HP by 80%%, and you will  get a 100%% bonus damage when attacked.
+2710	God of Frenzy: Infuses the wielder with divine fury! Has a higher chance to deal double damage. Costs 5% Max HP.
+2711	Pierce: Has a chance to decrease opponent's physical defense.
+2712	Freeze: Has a chance to freeze the opponent for 3 seconds.
+2713	Rip: Has a chance to cause 5,000 bleeding damage over 15 seconds.
+2714	Has a chance to stun target for 3 seconds.
+2715	Purify Spell: Has a chance to remove debuff when being attacked, and immune to stun and slow, and increase speed by 200%%, lasts for 5 seconds.
+2716	Infinite: Has a chance to recover 2,100 HP in 9 seconds while being attacked, while increasing Mana by 50 points.

@@ -1,0 +1,13 @@
+Put or copy your custorm translation to the file *GamePrefix*_UserLang_{ru|en}.csv
+@LIST_NAME_IN_STRUCT;List name translated
+Put or copy your custorm field types to the file *GamePrefix*_UserTypes.csv
+
+GamePrefix can be:
+PW
+JD
+FW
+ESO
+HOTK
+
+field_name can be a regular expression: "$" - any number (\d+)
+For example: object_$;Item $1

@@ -1,0 +1,31 @@
+{
+  "controls": {
+    "cmdok": "Confirmar [Enter]",
+    "label2": "Máscara:",
+    "checkBox1": "Não pode ser destruído",
+    "checkBox2": "Não pode ser descartado",
+    "checkBox3": "Não pode ser vendido",
+    "checkBox4": "Não cai ao morrer",
+    "checkBox7": "Proteção ao morrer",
+    "checkBox16": "“Item vinculado”",
+    "checkBox5": "Não pode ser trocado",
+    "checkBox6": "Não pode ser refinado",
+    "checkBox14": "Dano recebido",
+    "checkBox15": "Não pode ser colocado no armazém comum",
+    "checkBox12": "Vincular ao desconectar",
+    "checkBox13": "Não pode ser reparado",
+    "checkBox10": "Usar imediatamente",
+    "checkBox11": "Desaparece ao morrer",
+    "checkBox8": "Não pode ser colocado no armazém da conta",
+    "checkBox9": "Desaparece ao sair do local atual",
+    "cmdUncheckAll": "Nenhum",
+    "cmdCheckAll": "Todos",
+    "cmdcancel": "Cancelar [Esc]"
+  },
+  "tooltips": {
+    "checkBox12": "O item desaparece quando o personagem sai do jogo",
+    "cmdUncheckAll": "Desmarcar tudo...",
+    "cmdCheckAll": "Marcar tudo..."
+  },
+  "lists": {}
+}

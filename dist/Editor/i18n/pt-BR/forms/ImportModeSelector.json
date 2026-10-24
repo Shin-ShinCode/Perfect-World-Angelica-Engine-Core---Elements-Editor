@@ -1,0 +1,13 @@
+{
+  "controls": {
+    "cmdCancel": "Cancelar [Esc]",
+    "cmdAccept": "Confirmar [Enter]",
+    "lblText": "Alguns itens já existem. Escolha o que fazer quando um item importado já estiver cadastrado:",
+    "optReplaceTheExistingItem": "Substituir item existente",
+    "optSetUniqueIDForNewItemAndAddIt": "Definir um ID exclusivo para o novo item e adicioná-lo",
+    "optSkipNewItem": "Ignorar novo item",
+    "optAddNewItem": "Adicionar novo item"
+  },
+  "tooltips": {},
+  "lists": {}
+}

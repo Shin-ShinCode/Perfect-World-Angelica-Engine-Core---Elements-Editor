@@ -1,0 +1,9 @@
+{
+  "controls": {
+    "cmdcancel": "取消[ESC]",
+    "cmdok": "保存 [回车]",
+    "cmdPaste": "粘贴"
+  },
+  "tooltips": {},
+  "lists": {}
+}

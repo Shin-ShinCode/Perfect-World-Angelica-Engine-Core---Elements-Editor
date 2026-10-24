@@ -1,0 +1,10 @@
+{
+  "controls": {
+    "cmdOk": "选择 [回车]",
+    "cmdAll": "全部",
+    "cmdNone": "无",
+    "cmdCancel": "取消"
+  },
+  "tooltips": {},
+  "lists": {}
+}

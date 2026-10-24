@@ -1,0 +1,23 @@
+{
+  "ui.tasks.duplicate_ids.title": "IDs de tarefas duplicados",
+  "ui.tasks.duplicate_ids.warning": "Aviso: Foram encontradas tarefas com o mesmo ID e espaço.",
+  "ui.tasks.duplicate_ids.entry": "- ID $1, espaço $2 ($3 ocorrências)",
+  "ui.tasks.duplicate_ids.more": "... e mais $1 grupo(s) duplicado(s).",
+  "ui.tasks.duplicate_ids.ask_guidance": "\n\nDeseja ver orientações para corrigir? Sim: abrir instruções. Não: continuar sem alterar os dados.",
+  "ui.tasks.duplicate_ids.guidance": "As tarefas duplicadas estão destacadas em vermelho e negrito na árvore.\n\nComo resolver com segurança:\n1. Faça uma cópia de segurança de tasks.data.\n2. Pesquise o ID informado e compare as tarefas duplicadas para identificar a correta.\n3. Se ambas precisarem existir, escolha um ID livre para uma delas.\n4. Atualize também as referências que deveriam apontar para a tarefa renumerada, como vínculos de NPCs, pré-requisitos e subtarefas.\n5. Salve e reabra o arquivo para conferir.\n\nO Editor não altera IDs automaticamente porque não consegue determinar qual tarefa cada referência pretendia usar. Ao escolher Não, o carregamento continua e nenhum dado é modificado.",
+  "ui.tasks.duplicate_ids.button_yes": "Sim",
+  "ui.tasks.duplicate_ids.button_no": "Não",
+  "ui.tasks.duplicate_ids.guidance_title": "Como resolver IDs duplicados",
+  "ui.tasks.invalid_record_index": "Índice de registro de tarefa inválido na posição $1.",
+  "ui.tasks.unsupported_future_version": "A versão deste tasks.data ($1) é mais recente que a versão máxima compatível ($2).",
+  "ui.restart.title": "Reinicialização necessária",
+  "ui.restart.theme_to_light_confirmation": "O editor precisa reiniciar para aplicar o tema claro.\n\nReiniciar agora?",
+  "ui.restart.theme_to_dark_confirmation": "O editor precisa reiniciar para aplicar o tema escuro.\n\nReiniciar agora?",
+  "ui.restart.launch_failed": "Não foi possível reiniciar o editor automaticamente.",
+  "ui.theme.light_mode": "Tema claro",
+  "ui.theme.dark_mode": "Tema escuro",
+  "ui.theme.switch_to_light.tooltip": "Alterna para o tema claro. O Editor pedirá confirmação e será reiniciado para aplicar a mudança.",
+  "ui.theme.switch_to_dark.tooltip": "Alterna para o tema escuro. O Editor pedirá confirmação e será reiniciado para aplicar a mudança.",
+  "legacy.msg.100.2": "Ordenar receitas",
+  "ui.npc_make.sort_recipes.tooltip": "Organiza as receitas desta página por categoria e subtipo quando possível; caso contrário, por ID."
+}

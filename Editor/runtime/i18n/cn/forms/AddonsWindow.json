@@ -1,0 +1,13 @@
+{
+  "controls": {
+    "label1": "选择或输入 ID：",
+    "cmdok": "选择 [回车]",
+    "clmAddon": "附加属性",
+    "clmID": "请选择或输入 ID：",
+    "cmdcancel": "取消[ESC]"
+  },
+  "tooltips": {
+    "addons": "单击 2 时间到选择"
+  },
+  "lists": {}
+}

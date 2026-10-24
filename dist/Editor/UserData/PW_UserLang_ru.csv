@@ -1,0 +1,17 @@
+﻿@EQUIPMENT_ADDON;Бонусы
+@WEAPON_MAJOR_TYPE;Типы оружия
+@WEAPON_SUB_TYPE;Подтипы оружия
+@WEAPON_ESSENCE;Оружие
+
+#ARMORRUNE_ESSENCE
+damage_type;Снижает урон
+
+#FLYSWORD_ESSENCE
+improve_config_$_require_item_num;Стоимость улучшения $1
+improve_config_$_speed_increase;Увеличение обычн. скорости $1
+improve_config_$_speed_rush_increase;Увеличение ускор. скорости $1
+
+#EQUIP_MAKE_HOLE_CONFIG
+level_list_$_hole_list_$_require_item_id;Для уровня $1 требуется $2 яч.
+level_list_$_hole_list_$_require_item_count;Максимальное кол-во
+level_list_$_hole_list_$_fee;Цена создания яч. $1

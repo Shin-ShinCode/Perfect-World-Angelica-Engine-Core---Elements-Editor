@@ -1,0 +1,38 @@
+{
+  "controls": {
+    "cmdok": "Confirmar [Enter]",
+    "label2": "Status:",
+    "cmdUncheckAll": "Nenhum",
+    "cmdCheckAll": "Todos",
+    "cmdcancel": "Cancelar [Esc]",
+    "groupBoxStoreType": "Tipo de loja",
+    "checkBoxStoreNormal": "Loja comum (0)",
+    "checkBoxStoreNew": "Loja nova (1)",
+    "checkBoxStoreRecommended": "Loja recomendada (2)",
+    "checkBoxStoreHighlight": "Loja de moda em destaque (3)",
+    "checkBoxStoreClassic": "Loja de moda clássica (9)",
+    "checkBoxStoreReturn": "Loja de moda de retorno (15)",
+    "groupBoxPercentage": "Desconto",
+    "checkBoxPercent80_4096": "80% (4096)",
+    "checkBoxPercent80_2048": "80% (2048)",
+    "checkBoxPercent80_1024": "80% (1024)",
+    "checkBoxPercent60": "60% (512)",
+    "checkBoxPercent50": "50% (256)",
+    "checkBoxPercent40": "40% (128)",
+    "checkBoxPercent30": "30% (64)",
+    "checkBoxPercent20": "20% (32)",
+    "checkBoxPercent10": "10% (16)",
+    "groupBoxVIP": "VIP",
+    "checkBoxVip1": "VIP 1 (16384)",
+    "checkBoxVip2": "VIP 2 (32768)",
+    "checkBoxVip3": "VIP 3 (65536)",
+    "checkBoxVip4": "VIP 4 (131072)",
+    "checkBoxVip5": "VIP 5 (262144)",
+    "checkBoxVip6": "VIP 6 (524288)"
+  },
+  "tooltips": {
+    "cmdUncheckAll": "Desmarcar tudo...",
+    "cmdCheckAll": "Marcar tudo..."
+  },
+  "lists": {}
+}

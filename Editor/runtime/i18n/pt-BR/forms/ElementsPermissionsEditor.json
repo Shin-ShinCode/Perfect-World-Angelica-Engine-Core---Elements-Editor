@@ -1,0 +1,16 @@
+{
+  "controls": {
+    "cmdcancel": "Cancelar",
+    "cmdApply": "Aplicar",
+    "grpOwner": "Proprietário",
+    "grpOptions": "Opções",
+    "chkEncryptElements": "Criptografar elements.data (PW)",
+    "chkAllUsersCanEditPermissions": "Permitir que todos os usuários editem as permissões",
+    "grpAllowedUsersList": "Usuários permitidos (login)",
+    "cmdDelete": "Excluir",
+    "cmdAdd": "Adicionar",
+    "clmUsername": "Usuário"
+  },
+  "tooltips": {},
+  "lists": {}
+}

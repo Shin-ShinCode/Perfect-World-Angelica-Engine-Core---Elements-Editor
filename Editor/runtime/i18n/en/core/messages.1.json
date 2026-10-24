@@ -1,0 +1,23 @@
+{
+  "ui.tasks.duplicate_ids.title": "Duplicate task IDs",
+  "ui.tasks.duplicate_ids.warning": "Warning: Tasks were found with the same ID and space.",
+  "ui.tasks.duplicate_ids.entry": "- ID $1, space $2 ($3 occurrences)",
+  "ui.tasks.duplicate_ids.more": "... and $1 more duplicate group(s).",
+  "ui.tasks.duplicate_ids.ask_guidance": "\n\nWould you like correction guidance? Yes: open instructions. No: continue without changing data.",
+  "ui.tasks.duplicate_ids.guidance": "Duplicate tasks are highlighted in red and bold in the tree.\n\nHow to resolve this safely:\n1. Make a backup copy of tasks.data.\n2. Search for the reported ID and compare the duplicate tasks to identify the intended records.\n3. If both tasks must exist, choose an unused ID for one of them.\n4. Also update references that should point to the renumbered task, such as NPC links, prerequisites, and subtasks.\n5. Save and reopen the file to verify it.\n\nThe editor does not change IDs automatically because it cannot determine which task each reference was meant to use. Choosing No continues loading without modifying any data.",
+  "ui.tasks.duplicate_ids.button_yes": "Yes",
+  "ui.tasks.duplicate_ids.button_no": "No",
+  "ui.tasks.duplicate_ids.guidance_title": "How to resolve duplicate IDs",
+  "ui.tasks.invalid_record_index": "Invalid task record index at position $1.",
+  "ui.tasks.unsupported_future_version": "This tasks.data version ($1) is newer than the maximum supported version ($2).",
+  "ui.restart.title": "Restart required",
+  "ui.restart.theme_to_light_confirmation": "The editor needs to restart to apply Light Mode.\n\nRestart now?",
+  "ui.restart.theme_to_dark_confirmation": "The editor needs to restart to apply Dark Mode.\n\nRestart now?",
+  "ui.restart.launch_failed": "The editor could not restart automatically.",
+  "ui.theme.light_mode": "Light Mode",
+  "ui.theme.dark_mode": "Dark Mode",
+  "ui.theme.switch_to_light.tooltip": "Switch to the light theme. The editor will ask for confirmation and restart to apply the change.",
+  "ui.theme.switch_to_dark.tooltip": "Switch to the dark theme. The editor will ask for confirmation and restart to apply the change.",
+  "legacy.msg.100.2": "Sort recipes",
+  "ui.npc_make.sort_recipes.tooltip": "Sorts this page's recipes by category and subtype when possible; otherwise, by ID."
+}

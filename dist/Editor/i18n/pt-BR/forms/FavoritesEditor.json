@@ -1,0 +1,9 @@
+{
+  "controls": {
+    "cmdcancel": "Cancelar [Esc]",
+    "cmdok": "Salvar [Enter]",
+    "cmdPaste": "Colar"
+  },
+  "tooltips": {},
+  "lists": {}
+}

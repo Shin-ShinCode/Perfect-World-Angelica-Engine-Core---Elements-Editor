@@ -1,0 +1,21 @@
+{
+  "controls": {
+    "clmID": "Selecione ou digite o ID:",
+    "clmItemName": "Nome do item",
+    "clmValue1": "Valor 1",
+    "clmValue2": "Valor 2",
+    "clmProb": "Probabilidade",
+    "clmFixProb": "Corrigir",
+    "cmdAdd": "Adicionar",
+    "CommonProbability": "100%",
+    "cmdDel": "Excluir",
+    "cmdok": "Salvar",
+    "cmdcancel": "Cancelar",
+    "cmdSort": "Ordenar",
+    "cmdSetEqualsProbs": "Ʃ 100%"
+  },
+  "tooltips": {
+    "chkAutoSort": "Ordenar automaticamente"
+  },
+  "lists": {}
+}

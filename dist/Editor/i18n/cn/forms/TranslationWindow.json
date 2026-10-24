@@ -1,0 +1,13 @@
+{
+  "controls": {
+    "lblCurrentLang": "当前语言：",
+    "lblDestinationLang": "目标语言：",
+    "cmdcancel": "取消[ESC]",
+    "cmdStart": "开始 [回车]",
+    "chkTranslateItemDesc": "翻译物品描述（item_ext_desc.txt）"
+  },
+  "tooltips": {
+    "cmdExchange": "交换"
+  },
+  "lists": {}
+}

@@ -1,0 +1,17 @@
+{
+  "controls": {
+    "ConfigWindow": "Editor de configurações",
+    "label4": "Índice da lista de diálogos:",
+    "addRowToolStripMenuItem": "Adicionar linha",
+    "deleteRowToolStripMenuItem": "Excluir linha",
+    "Column1": "Nome",
+    "Column2": "Tipo",
+    "button2": "Adicionar",
+    "label3": "Lista:",
+    "button1": "Excluir",
+    "label2": "Deslocamento em bytes:",
+    "label1": "Nome da lista:"
+  },
+  "tooltips": {},
+  "lists": {}
+}

@@ -1,0 +1,28 @@
+{
+  "controls": {
+    "ModelSelector": "Selecionar modelo",
+    "cmdOk": "Confirmar [Enter]",
+    "cmdCancel": "Cancelar [Esc]",
+    "mnuOk": "Selecionar modelo",
+    "mnuGoToItem": "Ir ao alvo",
+    "mnuCopyPath": "Copiar caminho para a área de transferência",
+    "mnuGoToPath": "Localizar no pacote PCK",
+    "clmName": "Nome",
+    "clmPath": "Caminho",
+    "clmID": "Selecione ou digite o ID:",
+    "clmUses": "Usos",
+    "chkOnlyFreeModels": "Exibir somente modelos não utilizados",
+    "txtFind": "Buscar: #, ID, nome ou caminho",
+    "clmNum": "Nº",
+    "cmdFindNext": "Buscar próximo"
+  },
+  "tooltips": {
+    "txtFind": "Deixe vazio para ir ao próximo modelo não utilizado"
+  },
+  "lists": {
+    "cmbGender": [
+      "Masculino",
+      "Feminino"
+    ]
+  }
+}

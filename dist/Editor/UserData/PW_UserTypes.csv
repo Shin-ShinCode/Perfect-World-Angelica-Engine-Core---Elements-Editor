@@ -1,0 +1,694 @@
+#NPC_ESSENCE
+id_to_discover;world_targets_file
+
+#TARGET_ITEM_ESSENCE
+use_in_combat;ft_bool
+use_in_sanctuary_only;ft_bool
+combined_switch;target_item_combined_switch_pw
+~area_id_$;instance_file
+~target_id_for_pop_$;mob_npc_mine
+
+#WEAPON_ESSENCE
+require_projectile;PROJECTILE_TYPE
+short_range_mode;short_range_mode
+fixed_props;ft_fixed_props
+character_combo_id;79m
+id_drop_after_damaged;matters
+has_guid;ft_bool
+
+#ARMOR_ESSENCE
+fixed_props;ft_fixed_props
+character_combo_id;79m
+id_drop_after_damaged;matters
+has_guid;ft_bool
+
+#DECORATION_ESSENCE
+fixed_props;ft_fixed_props
+character_combo_id;79m
+id_drop_after_damaged;matters
+has_guid;ft_bool
+
+#NEW_ARMOR_ESSENCE
+fixed_props;ft_fixed_props
+character_combo_id;79m
+id_drop_after_damaged;matters
+has_guid;ft_bool
+
+#FLYSWORD_ESSENCE
+character_combo_id;79m
+id_drop_after_damaged;matters
+has_guid;ft_bool
+
+#FASHION_ESSENCE
+character_combo_id;79m
+has_guid;ft_bool
+
+#BIBLE_ESSENCE
+id_drop_after_damaged;matters
+has_guid;ft_bool
+
+# ---- generic boolean: 'has_guid' is a bind-on-creation flag present in nearly all item lists ----
+#MEDICINE_ESSENCE
+has_guid;ft_bool
+
+#MATERIAL_ESSENCE
+has_guid;ft_bool
+
+#DAMAGERUNE_ESSENCE
+has_guid;ft_bool
+
+#ARMORRUNE_ESSENCE
+has_guid;ft_bool
+
+#SKILLTOME_ESSENCE
+has_guid;ft_bool
+
+#WINGMANWING_ESSENCE
+has_guid;ft_bool
+
+#TOWNSCROLL_ESSENCE
+has_guid;ft_bool
+
+#UNIONSCROLL_ESSENCE
+has_guid;ft_bool
+
+#REVIVESCROLL_ESSENCE
+has_guid;ft_bool
+
+#ELEMENT_ESSENCE
+has_guid;ft_bool
+
+#TASKMATTER_ESSENCE
+has_guid;ft_bool
+
+#TOSSMATTER_ESSENCE
+has_guid;ft_bool
+
+#PROJECTILE_ESSENCE
+has_guid;ft_bool
+
+#STONE_ESSENCE
+has_guid;ft_bool
+
+#TASKDICE_ESSENCE
+has_guid;ft_bool
+
+#TASKNORMALMATTER_ESSENCE
+has_guid;ft_bool
+
+#FACETICKET_ESSENCE
+has_guid;ft_bool
+
+#FACEPILL_ESSENCE
+has_guid;ft_bool
+
+#GM_GENERATOR_ESSENCE
+has_guid;ft_bool
+
+#PET_EGG_ESSENCE
+has_guid;ft_bool
+
+#PET_FOOD_ESSENCE
+has_guid;ft_bool
+
+#PET_FACETICKET_ESSENCE
+has_guid;ft_bool
+
+#FIREWORKS_ESSENCE
+has_guid;ft_bool
+
+#WAR_TANKCALLIN_ESSENCE
+has_guid;ft_bool
+
+#SKILLMATTER_ESSENCE
+has_guid;ft_bool
+
+#REFINE_TICKET_ESSENCE
+has_guid;ft_bool
+
+#DESTROYING_ESSENCE
+has_guid;ft_bool
+
+#SPEAKER_ESSENCE
+has_guid;ft_bool
+
+#AUTOHP_ESSENCE
+has_guid;ft_bool
+
+#AUTOMP_ESSENCE
+has_guid;ft_bool
+
+#DOUBLE_EXP_ESSENCE
+has_guid;ft_bool
+
+#TRANSMITSCROLL_ESSENCE
+has_guid;ft_bool
+
+#DYE_TICKET_ESSENCE
+has_guid;ft_bool
+
+#GOBLIN_ESSENCE
+has_guid;ft_bool
+
+#GOBLIN_EQUIP_ESSENCE
+has_guid;ft_bool
+
+#GOBLIN_EXPPILL_ESSENCE
+has_guid;ft_bool
+
+#SELL_CERTIFICATE_ESSENCE
+has_guid;ft_bool
+
+#LOOK_INFO_ESSENCE
+has_guid;ft_bool
+
+#INC_SKILL_ABILITY_ESSENCE
+has_guid;ft_bool
+
+#WEDDING_BOOKCARD_ESSENCE
+has_guid;ft_bool
+
+#WEDDING_INVITECARD_ESSENCE
+has_guid;ft_bool
+
+#SHARPENER_ESSENCE
+has_guid;ft_bool
+
+#FACTION_MATERIAL_ESSENCE
+has_guid;ft_bool
+
+#CONGREGATE_ESSENCE
+has_guid;ft_bool
+
+#FORCE_TOKEN_ESSENCE
+has_guid;ft_bool
+
+#DYNSKILLEQUIP_ESSENCE
+has_guid;ft_bool
+
+#MONEY_CONVERTIBLE_ESSENCE
+has_guid;ft_bool
+
+#MONSTER_SPIRIT_ESSENCE
+has_guid;ft_bool
+
+#POKER_DICE_ESSENCE
+has_guid;ft_bool
+
+#POKER_ESSENCE
+has_guid;ft_bool
+
+#SHOP_TOKEN_ESSENCE
+has_guid;ft_bool
+
+#UNIVERSAL_TOKEN_ESSENCE
+has_guid;ft_bool
+
+#ASTROLABE_RANDOM_ADDON_ESSENCE
+has_guid;ft_bool
+
+#ASTROLABE_INC_INNER_POINT_VALUE_ESSENCE
+has_guid;ft_bool
+
+#ASTROLABE_INC_EXP_ESSENCE
+has_guid;ft_bool
+
+#ITEM_PACKAGE_BY_PROFESSION_ESSENCE
+has_guid;ft_bool
+
+#FIREWORKS2_ESSENCE
+has_guid;ft_bool
+
+#FIX_POSITION_TRANSMIT_ESSENCE
+has_guid;ft_bool
+
+#HOME_FORMULAS_ITEM_ESSENCE
+has_guid;ft_bool
+
+#WISH_TRIBUTE_ESSENCE
+has_guid;ft_bool
+
+#RED_PACKET_PAPER_ESSENCE
+has_guid;ft_bool
+
+#HOME_UNLOCK_PAPER_ESSENCE
+has_guid;ft_bool
+
+#GUARDIAN_BEAST_EGG_ESSENCE
+has_guid;ft_bool
+
+#EASY_PRODUCE_ITEM_ESSENCE
+has_guid;ft_bool
+
+#UNLOCK_RUNE_SLOT_ITEM_ESSENCE
+has_guid;ft_bool
+
+#RUNE_ITEM_ESSENCE
+has_guid;ft_bool
+
+#FIX_MONSTER_ITEM_ESSENCE
+has_guid;ft_bool
+
+#ITEM_USED_FOR_AREA_ESSENCE
+has_guid;ft_bool
+
+#CAPTURE_ITEM_ESSENCE
+has_guid;ft_bool
+
+#BIBLE_REFINE_TICKET_ESSENCE
+has_guid;ft_bool
+binding_only;refine_binding_only
+
+#QIHUN_ESSENCE
+has_guid;ft_bool
+
+#QILING_ESSENCE
+has_guid;ft_bool
+
+#QIHUN_COVER_ESSENCE
+has_guid;ft_bool
+
+#SLIDE_SKILL_ESSENCE
+has_guid;ft_bool
+
+#USE_FOR_SELF_ITEM_ESSENCE
+has_guid;ft_bool
+
+# ---- item references: bind reference-source fields to the item (matters) space ----
+# so opening an item's references shows Monsters / NPC Sell / Recipe / Mine tabs.
+#MONSTER_ESSENCE
+~drop_matters_$_id;matters
+id_pet_egg_captured;matters
+~drop_mines_$_id;MINE_ESSENCE
+
+#NPC_SELL_SERVICE
+~pages_$_goods_$_id;matters
+
+#RECIPE_ESSENCE
+~materials_$_id;matters
+~targets_$_id_to_make;matters
+
+#MINE_ESSENCE
+~materials_$_id;matters
+
+# ---- skill references: bind *_id_skill / id_skill / id_skills_N fields to ft_skills (FIELDTYPE 80).
+# Double-click opens the skill-select modal (SkillsWindow) and the value decodes to the skill name
+# via the Skills collection (loaded from the client configs.pck "skillstr.txt" when PCK use is on).
+# These fields are otherwise left untyped because the name-based auto-detector excludes "skill".
+# Regex '$' expands to \d+; plain 'id_skill' is an exact (non-regex) match. Wildcard entries that
+# match no field in a given list are harmless no-ops, so the same patterns are safe to repeat.
+#MONSTER_ESSENCE
+id_skill;ft_skills
+~skills_$_id_skill;ft_skills
+~skill_hp75_$_id_skill;ft_skills
+~skill_hp50_$_id_skill;ft_skills
+~skill_hp25_$_id_skill;ft_skills
+
+#PET_EGG_ESSENCE
+~skills_$_id_skill;ft_skills
+
+#NPC_SKILL_SERVICE
+~id_skills_$;ft_skills
+
+#NPC_PETLEARNSKILL_SERVICE
+~id_skills_$;ft_skills
+
+#NPC_PETFORGETSKILL_SERVICE
+~id_skills_$;ft_skills
+
+#RECIPE_ESSENCE
+id_skill;ft_skills
+
+#SKILLMATTER_ESSENCE
+id_skill;ft_skills
+
+#SKILLTOME_ESSENCE
+id_skill;ft_skills
+
+#INC_SKILL_ABILITY_ESSENCE
+id_skill;ft_skills
+
+#DYNSKILLEQUIP_ESSENCE
+id_skill;ft_skills
+# ---- speaker (and all other) item references: additional item-reference fields ----
+# These fields hold item ids (the matters/item space) but were left unbound (FIELDTYPE 0),
+# so items referenced ONLY through them (e.g. a SPEAKER granted by a package / produced /
+# required by a service) returned 0 references. Bind them to the matters space so the
+# References tab populates, matching the licensed app. (img_52: SPEAKER_ESSENCE refs.)
+#GM_GENERATOR_ESSENCE
+id_object;matters
+
+#ITEM_PACKAGE_BY_PROFESSION_ESSENCE
+~prof_list_$_gender_list_$_item_id;matters
+
+#EASY_PRODUCE_ITEM_ESSENCE
+~targets_$_id_to_make;matters
+
+#RUNE_ITEM_ESSENCE
+next_level_item_id;matters
+previous_level_item_id;matters
+
+#RED_PACKET_PAPER_ESSENCE
+special_item_id;matters
+
+#NEW_ARMOR_ESSENCE
+repair_cost_item_id;matters
+
+#HOME_FORMULAS_PRODUCE_RECIPE
+home_item_id;matters
+~material_$_home_item_id;matters
+~material_$_normal_item_id;matters
+
+#HOME_PRODUCTS_CONFIG
+cost_item_id;matters
+
+#HOME_CONFIG
+~map_unlock_$_need_item_id;matters
+
+#DRIFT_BOTTLE_DROP_CONFIG
+~drop_$_item_id;matters
+
+#CARRIER_CONFIG
+require_item_id;matters
+
+#EQUIP_MAKE_HOLE_CONFIG
+~level_list_$_hole_list_$_require_item_id;matters
+
+#FACTION_PET_BLESS_CONFIG
+~list_$_item_id;matters
+
+#FACTION_PET_FEED_CONFIG
+~list_$_require_item_id;matters
+
+#FACTION_TILLAGE_CONFIG
+~award_$_item_id;matters
+
+#MENTOR_LEVEL_CONFIG
+~level_$_item_id;matters
+
+#STUDENT_AWARD_CONFIG
+~award_$_item_id;matters
+
+#VOTE_CONFIG
+~award_$_item_id;matters
+
+#LOTTORY_TICKET_COST_CONFIG
+require_item_id;matters
+
+#NPC_PARK_ENTER_SERVICE
+require_item_id;matters
+
+#NPC_STATUE_CREATE_SERVICE
+require_item_id;matters
+
+#NPC_EQUIPBIND_SERVICE
+~id_object_need_$;matters
+
+#NPC_EQUIPDESTROY_SERVICE
+id_object_need;matters
+
+#NPC_EQUIPUNDESTROY_SERVICE
+id_object_need;matters
+
+#NPC_PETFORGETSKILL_SERVICE
+id_object_need;matters
+
+#NPC_PETNAME_SERVICE
+id_object_need;matters
+
+#NPC_RESETPROP_SERVICE
+~prop_entry_$_id_object_need;matters
+
+#NPC_WAR_TOWERBUILD_SERVICE
+~build_info_$_id_object_need;matters
+
+# =====================================================================================
+# ==== B2-B6: server-delivered field types restored as data (audit DISCREPANCIES.md) ===
+# The licensed server field-types DB typed these fields; offline it is absent, so they
+# rendered as raw integers. The decode tables / windows ALL load offline already
+# (eListCollection.InitDecodedValues registers the PW AddValues(N,...) tables; the mask
+# windows are reached by field double-click via GetFieldType). We only restore the
+# field->type BINDING. Token vocabulary is the FIELDTYPE_MANAGED enum name (resolved by
+# Enum.TryParse, whose ordinal == the runtime FIELDTYPE the windows/decoder switch on),
+# or a list name (reference). Confirmation source noted per block:
+#   [carved]    = rae_source/05_evb_extract/csv_1_ascii.bin (recovered licensed DB)
+#   [reference] = FIELDTYPE_MANAGED name + offline AddValues registration + window map
+#
+# ---- B2 Immunities: immune_type -> monster_immunity (FIELDTYPE 65, ImmunitiesWindow). ----
+# Cell decodes via DecodeMonsterImmunity (eListCollection.cs:14383). [reference]
+#MONSTER_ESSENCE
+immune_type;monster_immunity
+
+#PET_ESSENCE
+immune_type;monster_immunity
+
+# ---- B3 Masks ----
+# ARMOR equip_location -> equipslot (FIELDTYPE 21 enum decode). The carved licensed DB
+# binds NEW_ARMOR_ESSENCE equip_location;equipslot (NOT the equipslot_mask window). [carved]
+#ARMOR_ESSENCE
+equip_location;equipslot
+
+#NEW_ARMOR_ESSENCE
+equip_location;equipslot
+
+# PET food_mask -> food_mask (FIELDTYPE 69, FoodMaskWindow). [reference]
+#PET_ESSENCE
+food_mask;food_mask
+
+# MONSTER faction masks -> monster_faction_mask_pw (FIELDTYPE 66). Carved DB binds the
+# sibling field enemy_faction;monster_faction_mask_pw; ReplaceTypes() forces faction/
+# monster_faction/ask_help/can_help to uint (mask). [carved + reference]
+#MONSTER_ESSENCE
+faction;monster_faction_mask_pw
+monster_faction;monster_faction_mask_pw
+monster_faction_ask_help;monster_faction_mask_pw
+monster_faction_can_help;monster_faction_mask_pw
+
+# NPC combined-services masks -> npc_combined_services / npc_combined_services2
+# (FIELDTYPE 67 / 68, both registered offline via AddValues(67)/AddValues(68)). [reference]
+# combined_services3 / faction_combined_services have NO dedicated offline decode table
+# (only services/services2 are registered) and are NOT bound here.
+#NPC_ESSENCE
+combined_services;npc_combined_services
+combined_services2;npc_combined_services2
+
+# combined_switch masks: MONSTER -> monster_combined_switch (70), PET -> pet_combined_switch_pw (75).
+# Both decode tables registered offline (AddValues(70)/AddValues(75)). [reference]
+#MONSTER_ESSENCE
+combined_switch;monster_combined_switch
+
+#PET_ESSENCE
+combined_switch;pet_combined_switch_pw
+
+# ---- B4 Enums (decode tables already registered offline via AddValues) ----
+# role_in_war_pw(42), stand_mode_pw(48), after_death_pw(49), highest_frequency_pw(51).
+# 42 & 48 are registered unconditionally (eListCollection.cs:7798/7800); 49 & 51 in the
+# PW game branch. [reference]
+# inhabit_type (MONSTER/PET): the licensed app bound this via the server @enum file, which is
+# ABSENT offline. Its value->label table IS present in our offline Strings.csv (group 24, also
+# confirmed in licensed.dmp) and is now registered under extra-type 2050 (InitDecodedValues).
+# Bound via the EnumId path (numeric token >=2000 -> FIELDTYPE 18 enum). [dump-recovered]
+# NOTE: aggressive_mode, patroll_mode (MONSTER), attack_rule (NPC), pet_snd_type (PET) have NO
+# value->label table anywhere in the single (PT/BR) licensed.dmp session AND none in our offline
+# Strings.csv -> genuinely unrecoverable from this capture; left untyped (needs a fresh capture).
+#MONSTER_ESSENCE
+role_in_war;role_in_war_pw
+stand_mode;stand_mode_pw
+after_death;after_death_pw
+highest_frequency;highest_frequency_pw
+inhabit_type;2050
+
+#PET_ESSENCE
+stand_mode;stand_mode_pw
+inhabit_type;2050
+
+# ---- B5 References ----
+# NPC id_*_service -> the corresponding NPC_*_SERVICE list (BindedListName reference).
+# Pattern confirmed in carved DB for id_mysterious_shop_service / id_pridictable_engrave_service;
+# all target lists verified present in PW_1.6.2_v233.cfg. [carved pattern + config-verified]
+# (id_goblin_skill_service has no matching list -> omitted.)
+#NPC_ESSENCE
+id_talk_service;NPC_TALK_SERVICE
+id_sell_service;NPC_SELL_SERVICE
+id_buy_service;NPC_BUY_SERVICE
+id_repair_service;NPC_REPAIR_SERVICE
+id_install_service;NPC_INSTALL_SERVICE
+id_uninstall_service;NPC_UNINSTALL_SERVICE
+id_task_out_service;NPC_TASK_OUT_SERVICE
+id_task_in_service;NPC_TASK_IN_SERVICE
+id_task_matter_service;NPC_TASK_MATTER_SERVICE
+id_skill_service;NPC_SKILL_SERVICE
+id_heal_service;NPC_HEAL_SERVICE
+id_transmit_service;NPC_TRANSMIT_SERVICE
+id_transport_service;NPC_TRANSPORT_SERVICE
+id_proxy_service;NPC_PROXY_SERVICE
+id_storage_service;NPC_STORAGE_SERVICE
+id_make_service;NPC_MAKE_SERVICE
+id_decompose_service;NPC_DECOMPOSE_SERVICE
+id_identify_service;NPC_IDENTIFY_SERVICE
+id_war_towerbuild_service;NPC_WAR_TOWERBUILD_SERVICE
+id_resetprop_service;NPC_RESETPROP_SERVICE
+id_petname_service;NPC_PETNAME_SERVICE
+id_petlearnskill_service;NPC_PETLEARNSKILL_SERVICE
+id_petforgetskill_service;NPC_PETFORGETSKILL_SERVICE
+id_equipbind_service;NPC_EQUIPBIND_SERVICE
+id_equipdestroy_service;NPC_EQUIPDESTROY_SERVICE
+id_equipundestroy_service;NPC_EQUIPUNDESTROY_SERVICE
+id_cross_server_service;NPC_CROSS_SERVER_SERVICE
+id_engrave_service;NPC_ENGRAVE_SERVICE
+id_randprop_service;NPC_RANDPROP_SERVICE
+id_force_service;NPC_FORCE_SERVICE
+id_arena_sell_service;NPC_ARENA_SELL_SERVICE
+id_statue_create_service;NPC_STATUE_CREATE_SERVICE
+id_lib_produce_service;NPC_LIB_PRODUCE_SERVICE
+id_mysterious_shop_service;NPC_MYSTERIOUS_SHOP_SERVICE
+id_pridictable_engrave_service;NPC_PRIDICTABLE_ENGRAVE_SERVICE
+id_faction_sell_service;NPC_FACTION_SELL_SERVICE
+id_park_enter_service;NPC_PARK_ENTER_SERVICE
+# NPC world/cross-list references. id_to_discover already typed above (world_targets_file).
+id_mine;MINE_ESSENCE
+id_src_monster;MONSTER_ESSENCE
+skill_id;ft_skills
+
+# MONSTER cross-list references. id_pet_egg_captured already bound to matters above.
+# carrier_id / monster_father_id reference other monsters. [reference]
+# NOTE: id_strategy / common_strategy / aggro_strategy_N_id have NO target list in the
+# config (no *STRATEGY* list) -> cannot bind a reference offline; left untyped.
+#MONSTER_ESSENCE
+carrier_id;MONSTER_ESSENCE
+monster_father_id;MONSTER_ESSENCE
+
+# ---- B6 Money (money_average, money_var): NOT bound here. These are already handled by
+# the MoneyFields regex in ADDITIONAL_PARAMS (default includes money_average;money_var),
+# which formats them independently of the field-types DB. No FIELDTYPE_MANAGED money token
+# exists, so a CSV binding is neither needed nor possible. ----
+
+# =====================================================================================
+# ==== ROUND-2 audit fixes (Groups A, B, C). Same data-gap pattern as B2-B6 above:    =
+# the licensed server field-types DB typed these fields; offline it is absent so they
+# rendered raw. Decode tables / windows are ALL already registered offline; only the
+# field->type BINDING is restored. Tokens are FIELDTYPE_MANAGED enum names (Enum.TryParse).
+# Field names verified against release/Configs/PW_1.6.2_v233.cfg. ADD-only; existing
+# bindings above are untouched.
+#
+# ---- A1 Color fields -> ft_hex_color (FIELDTYPE 93 hex-color picker / ^RRGGBB decode). ----
+#STONE_ESSENCE
+color;ft_hex_color
+
+#FORCE_CONFIG
+color;ft_hex_color
+
+#TITLE_CONFIG
+color;ft_hex_color
+~dynamic_colors_$;ft_hex_color
+
+#COMPLEX_TITLE_CONFIG
+color;ft_hex_color
+~dynamic_colors_$;ft_hex_color
+
+#AUTOTASK_DISPLAY_CONFIG
+~list_$_color;ft_hex_color
+
+#COUNTRY_CONFIG
+~country_$_color;ft_hex_color
+
+# ---- A2 equip_mask -> equipslot_mask (FIELDTYPE 67, EquipSlotMaskWindow). Bound under
+# every v233 list that has an equip_mask field. ----
+#ARMOR_SUB_TYPE
+equip_mask;equipslot_mask
+
+#DECORATION_SUB_TYPE
+equip_mask;equipslot_mask
+
+#SHARPENER_ESSENCE
+equip_mask;equipslot_mask
+
+#ENGRAVE_ESSENCE
+equip_mask;equipslot_mask
+
+#POKER_SUB_TYPE
+equip_mask;equipslot_mask
+
+#NEW_ARMOR_SUB_TYPE
+equip_mask;equipslot_mask
+
+#QIHUN_ESSENCE
+equip_mask;equipslot_mask
+
+# ---- A3 Gender enums. FASHION gender -> ft_gender (FIELDTYPE 33); AUTOTEAM require_gender
+# -> ft_gender2 (FIELDTYPE 53, the "any/male/female" variant). ----
+#FASHION_ESSENCE
+gender;ft_gender
+
+#AUTOTEAM_CONFIG
+require_gender;ft_gender2
+
+# ---- A4 FASHION equip_location -> styletype (FIELDTYPE 35). Distinct from ARMOR's
+# equip_location;equipslot above: fashion slots are the style-type space. ----
+#FASHION_ESSENCE
+equip_location;styletype
+
+# ---- B skill fields -> ft_skills (FIELDTYPE 83, SkillsWindow; decodes to skill name).
+# B1 (#NPC_PETLEARNSKILL_SERVICE ~id_skills_$) was ALREADY bound by the earlier skill pass
+# above (see #NPC_PETLEARNSKILL_SERVICE) -> not repeated here.
+# B2 PET_EVOLVED_SKILL_CONFIG skills_N_id ----
+#PET_EVOLVED_SKILL_CONFIG
+~skills_$_id;ft_skills
+
+# B3 PET_ESSENCE skill fields (specific_skill, player_gain_skill, id_evolved_skill_rand) ----
+#PET_ESSENCE
+specific_skill;ft_skills
+player_gain_skill;ft_skills
+id_evolved_skill_rand;ft_skills
+
+# B4 MONSTER after_death_use_skill_id ----
+#MONSTER_ESSENCE
+after_death_use_skill_id;ft_skills
+
+# B5 rune/carrier/slide skill-id fields. Regex '$' -> \d+, anchored ^...$, so
+# '~parts_$_skills_id_skill_$' matches parts_N_skills_id_skill_M but NOT the sibling
+# parts_N_skills_level_skill_M (level fields stay untyped). ----
+#RUNE_SKILL_CONFIG
+~list_$_skills_id_skill_base;ft_skills
+~list_$_skills_id_skill_rune_$;ft_skills
+
+#CARRIER_CONFIG
+~parts_$_skills_id_skill_$;ft_skills
+
+#SLIDE_SKILL_ESSENCE
+~sliders_$_skill_id;ft_skills
+
+# ---- C NPC combined_switch -> npc_combined_switch (FIELDTYPE 74). Distinct from the NPC
+# combined_services masks bound above; this is the NPC switch mask. ----
+#NPC_ESSENCE
+combined_switch;npc_combined_switch
+
+# ---- equipment-addon references: bind addon-id fields to the EQUIPMENT_ADDON space (equip_addon,
+# FIELDTYPE 90) so opening an Equipment Addon (section [0], e.g. 227 "Metal Resistance +400")
+# shows the equipment that rolls it in its References tab. Mirrors the matters/skills blocks above.
+# '~' = regex ('$' -> \d+); a pattern that matches no field in a list is a harmless no-op. ----
+#WEAPON_ESSENCE
+~addons_$_id_addon;equip_addon
+#ARMOR_ESSENCE
+~addons_$_id_addon;equip_addon
+#DECORATION_ESSENCE
+~addons_$_id_addon;equip_addon
+#ARMORRUNE_ESSENCE
+~addons_$_id_addon;equip_addon
+#FLYSWORD_ESSENCE
+~addons_$_id_addon;equip_addon
+#PROJECTILE_ESSENCE
+~addons_$_id_addon;equip_addon
+#FASHION_ESSENCE
+~addons_$_id_addon;equip_addon
+#FASHION_WEAPON_CONFIG
+~addons_$_id_addon;equip_addon
+#STONE_ESSENCE
+id_addon_damage;equip_addon
+id_addon_defence;equip_addon
+id_addon_decoration;equip_addon
+#SHARPENER_ESSENCE
+~id_addon$;equip_addon
+#NEW_ARMOR_ESSENCE
+~id_addons_$;equip_addon
+~levelup_addons_$_id_addon;equip_addon

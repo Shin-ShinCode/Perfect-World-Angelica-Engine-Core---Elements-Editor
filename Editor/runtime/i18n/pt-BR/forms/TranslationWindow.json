@@ -1,0 +1,13 @@
+{
+  "controls": {
+    "lblCurrentLang": "Idioma atual:",
+    "lblDestinationLang": "Idioma de destino:",
+    "cmdcancel": "Cancelar [Esc]",
+    "cmdStart": "Iniciar [Enter]",
+    "chkTranslateItemDesc": "Traduzir descrição dos itens (item_ext_desc.txt)"
+  },
+  "tooltips": {
+    "cmdExchange": "Inverter"
+  },
+  "lists": {}
+}

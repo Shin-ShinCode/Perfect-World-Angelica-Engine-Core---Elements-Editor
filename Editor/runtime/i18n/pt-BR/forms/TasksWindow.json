@@ -1,0 +1,13 @@
+{
+  "controls": {
+    "label1": "Selecione ou digite o ID:",
+    "cmdOk": "Selecionar [Enter]",
+    "clmName": "Nome",
+    "clmID": "Selecione ou digite o ID:",
+    "cmdCancel": "Cancelar [Esc]"
+  },
+  "tooltips": {
+    "items": "Clique duas vezes para selecionar"
+  },
+  "lists": {}
+}

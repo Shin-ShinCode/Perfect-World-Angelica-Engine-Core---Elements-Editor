@@ -1,0 +1,12 @@
+{
+  "controls": {
+    "cmdCancel": "取消[ESC]",
+    "cmdOk": "确认 [回车]",
+    "optDeleteItems": "删除",
+    "optSelectItems": "在主窗口中选择元素",
+    "grpAction": "对找到的元素执行操作",
+    "optAddItemsToSearchResult": "将元素加入搜索结果"
+  },
+  "tooltips": {},
+  "lists": {}
+}

@@ -1,0 +1,16 @@
+{
+  "controls": {
+    "lblItemsNum": "物品数量：",
+    "cmdCopyAsXml": "复制为 XML",
+    "cmdCancel": "取消",
+    "cmdGenerate": "生成",
+    "lblCreator": "创建者:",
+    "cmdCopyOctets": "仅复制字节串",
+    "cmdCopyAsHtml": "复制为 HTML"
+  },
+  "tooltips": {
+    "cmdCopyAsXml": "请注意！可将物品放入预览，此时 <pos> 标签值会改为标称值。\n标称物品不能复制。",
+    "txtCreater": "可为非标准物品指定创建者。"
+  },
+  "lists": {}
+}

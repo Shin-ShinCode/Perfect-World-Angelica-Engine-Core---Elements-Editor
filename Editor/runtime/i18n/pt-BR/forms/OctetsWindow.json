@@ -1,0 +1,16 @@
+{
+  "controls": {
+    "lblItemsNum": "Quantidade de itens:",
+    "cmdCopyAsXml": "Copiar como XML",
+    "cmdCancel": "Cancelar",
+    "cmdGenerate": "Gerar",
+    "lblCreator": "Criador:",
+    "cmdCopyOctets": "Copiar somente a sequência de bytes",
+    "cmdCopyAsHtml": "Copiar como HTML"
+  },
+  "tooltips": {
+    "cmdCopyAsXml": "Atenção! É possível colocar o item na pré-visualização; nesse caso, o valor da tag <pos> será alterado para o valor nominal.\nItens nominais não podem ser copiados.",
+    "txtCreater": "É possível especificar o criador de itens não padronizados."
+  },
+  "lists": {}
+}

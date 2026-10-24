@@ -1,0 +1,25 @@
+{
+  "controls": {
+    "RecipesPreview": "Editor de dados genéricos: pré-visualização de receitas",
+    "mnuUndo": "Desfazer",
+    "mnuRedo": "Refazer",
+    "lblPreview": "Pré-visualização",
+    "label8": "Cancelar",
+    "label9": "Produção",
+    "lblProfessionLvl": "Nível",
+    "lblProfession": "Habilidade de produção atual",
+    "mnuGoToItem": "Ver item",
+    "mnuChangeItem": "Alterar item",
+    "mnuDeleteItem": "Excluir",
+    "mnuAddItem": "Adicionar",
+    "txtSkillName": "Habilidade de produção",
+    "lblCount": "Quantidade",
+    "lblSkill": "Habilidade",
+    "lblLv": "Nível",
+    "lblMatter": "Item",
+    "lblIsNotRecipes": "RAE",
+    "lblHelp": "Ajuda"
+  },
+  "tooltips": {},
+  "lists": {}
+}

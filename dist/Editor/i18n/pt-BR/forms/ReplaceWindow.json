@@ -1,0 +1,34 @@
+{
+  "controls": {
+    "label1": "ID inicial da lista:",
+    "label2": "ID inicial do item:",
+    "label3": "ID inicial do campo:",
+    "textBox_oldValue": "*",
+    "label4": "Valor inicial:",
+    "groupBox1": "Substituir valores",
+    "maxfield": "Valor máximo",
+    "maxitem": "Valor máximo",
+    "maxlist": "Valor máximo",
+    "chkfilter": "Filtrar...",
+    "label9": "Valor do campo:",
+    "label10": "Campo de substituição:",
+    "label8": "Campo",
+    "label7": "Campo",
+    "label6": "Campo",
+    "optparamvalue": "Substituir pelo valor do campo correspondente ao ID",
+    "optcustomvalue": "Substituir por valor personalizado:",
+    "chkmatchcase": "Diferenciar maiúsculas de minúsculas",
+    "chkwholeword": "Palavra inteira",
+    "chkautoincrement": "Incrementar automaticamente",
+    "chkusereplace": "Usar substituição",
+    "label5": "(0 = ID)",
+    "radioButton_replace": "Substituir",
+    "radioButton_recalculate": "Recalcular",
+    "button_replace": "Substituir"
+  },
+  "tooltips": {
+    "chkSelectedValues": "Substituir somente nos valores selecionados",
+    "chkSelectedItems": "Substituir somente nos itens selecionados"
+  },
+  "lists": {}
+}

@@ -1,0 +1,14 @@
+@RECIPE_MAJOR_TYPE;Типы рецептов
+@RECIPE_SUB_TYPE;Подтипы рецептов
+@RECIPE_ESSENCE;Рецепты
+
+#ALL
+id_type;Тип
+id_major_type;Тип
+id_sub_type;Подтип
+file_icon;Иконка
+type;Тип
+num_params;Количество значений
+param1;Значений 1
+param2;Значение 2
+param3;Значение 3

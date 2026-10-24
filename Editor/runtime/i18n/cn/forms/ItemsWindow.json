@@ -1,0 +1,16 @@
+{
+  "controls": {
+    "ItemsWindow": "选择项目...[ESC — 取消]",
+    "findnext": "下一个",
+    "cmdok": "确认[Enter]",
+    "cmdcancel": "取消 [ESC]",
+    "label1": "请选择或输入 ID：",
+    "clmName": "名称",
+    "clmID": "请选择或输入 ID："
+  },
+  "tooltips": {
+    "cmdselectlast": "滚动到最后一个元素",
+    "txtfind": "输入元素名称可快速定位"
+  },
+  "lists": {}
+}

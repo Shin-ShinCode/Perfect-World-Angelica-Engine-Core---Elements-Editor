@@ -1,0 +1,10 @@
+namespace ACE.Classes;
+
+public enum FILES_ENUM
+{
+	ELEMENTS = 0,
+	ITEM_EXT_DESC = 1,
+	ITEM_COLOR = 2,
+	ITEM_EXT_DESC_AND_ITEM_COLOR = 3,
+	ALL_FILES = 255
+}

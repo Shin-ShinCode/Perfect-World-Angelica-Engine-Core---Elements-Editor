@@ -1,0 +1,25 @@
+{
+  "controls": {
+    "label1": "附加文件：",
+    "cmdBrowse": "浏览……",
+    "cmdcancel": "关闭 [Esc]",
+    "cmdok": "开始 [回车]",
+    "optStringFields": "［本地化］仅导入字符串字段",
+    "optSpecificFields": "导入仅指定的字段:",
+    "optAllFields": "导入全部字段 (完整替换)",
+    "chkAddNewItems": "添加缺少的元素在当前文件",
+    "grpImportSettings": "数据导入设置",
+    "grpParametersImportedFields": "导入字段参数",
+    "optNothingFields": "不导入字段：仅添加缺少的元素（启用时）",
+    "label3": "到:",
+    "label2": "起始带 #:",
+    "grpLocalization": "分组",
+    "chkSkipNPCTalk": "跳过 NPC 对话",
+    "chkCheckOldFields": "仅更改匹配的值：",
+    "chkIsLocalization": "不更改模型和图标（推荐）"
+  },
+  "tooltips": {
+    "txtLists": "列表编号或名称\n也可输入用分号分隔的列表\n或用短横线表示列表范围\n例如：0-10 或 EQUIPMENT_ADDON-DECORATION_ESSENCE"
+  },
+  "lists": {}
+}

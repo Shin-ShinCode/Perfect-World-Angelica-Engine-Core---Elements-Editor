@@ -1,0 +1,46 @@
+# Saídas de compilação
+**/bin/
+**/obj/
+.dotnet-cli/
+
+# Arquivos gerados por verificações locais
+**/verification/build-*/
+**/verification/logs/
+**/verification/originals/
+
+# Cache e bytecode Python
+**/__pycache__/
+*.py[cod]
+
+# Logs e pacotes gerados localmente
+McpServer/mcp-logs.txt
+*.zip
+*.7z
+*.rar
+*.nupkg
+
+# Configurações locais de IDE e usuário
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.idea/
+.vs/
+.vscode/
+
+# Arquivos temporários da gravação segura do Editor
+**/.ace-*.tmp
+
+# Ferramentas de decompilação e auditorias internas
+/tools/
+/AUDITORIA*.md
+/verification/AUDITORIA*.md
+
+# Dados locais e arquivos de diagnóstico dentro da distribuição
+dist/**/ActionHistory/
+dist/**/logs.txt
+dist/**/*.pdb
+dist/Verification/
+dist/Editor/settings.xml
+
+

@@ -1,0 +1,7 @@
+﻿#Format:
+#ID (have to be 3100+ for PW, 4100+ for JD, 5100+ for FW)
+#val1_ru;val2_ru;val3_en=5
+#val1_en;val2_en;val3_en=5
+#DO NOT WRITE REAL VALUES FOR MASKS!
+
+

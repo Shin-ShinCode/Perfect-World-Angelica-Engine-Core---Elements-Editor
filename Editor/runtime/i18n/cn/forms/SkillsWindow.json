@@ -1,0 +1,19 @@
+{
+  "controls": {
+    "label1": "选择或输入 ID：",
+    "cmdOk": "选择 [回车]",
+    "clmName": "名称",
+    "clmsID": "请选择或输入 ID：",
+    "clmSource": "技能基础从 ...",
+    "clmID": "请选择或输入 ID：",
+    "clmUsages": "使用于在 ...",
+    "cmdCancel": "取消[ESC]"
+  },
+  "tooltips": {
+    "skills": "双击进行选择",
+    "skillsbase": "选择要从中加载技能的基础元素",
+    "usedby": "双击单击到转到到选中的元素",
+    "cmdFind": "查找下一个"
+  },
+  "lists": {}
+}

@@ -1,0 +1,28 @@
+{
+  "controls": {
+    "ModelSelector": "选择模型",
+    "cmdOk": "确定 [回车]",
+    "cmdCancel": "取消[ESC]",
+    "mnuOk": "选择模型",
+    "mnuGoToItem": "跳转到目标",
+    "mnuCopyPath": "复制路径到剪贴板",
+    "mnuGoToPath": "搜索PCK模块",
+    "clmName": "名称",
+    "clmPath": "路径",
+    "clmID": "请选择或输入 ID：",
+    "clmUses": "使用",
+    "chkOnlyFreeModels": "仅查看未使用",
+    "txtFind": "搜索：# ID或名称或路径",
+    "clmNum": "序号",
+    "cmdFindNext": "查找下一个"
+  },
+  "tooltips": {
+    "txtFind": "留空可跳转到下一个未使用的模型"
+  },
+  "lists": {
+    "cmbGender": [
+      "男",
+      "女"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "controls": {
+    "label1": "起始列表编号：",
+    "label2": "起始物品编号：",
+    "label3": "起始字段编号：",
+    "textBox_oldValue": "*",
+    "label4": "起始值：",
+    "groupBox1": "替换值",
+    "maxfield": "最大值",
+    "maxitem": "最大值",
+    "maxlist": "最大值",
+    "chkfilter": "筛选……",
+    "label9": "字段值：",
+    "label10": "替换的字段:",
+    "label8": "字段",
+    "label7": "字段",
+    "label6": "字段",
+    "optparamvalue": "替换为字段编号对应的值",
+    "optcustomvalue": "替换为自定义值：",
+    "chkmatchcase": "区分大小写",
+    "chkwholeword": "整个单词",
+    "chkautoincrement": "自动递增",
+    "chkusereplace": "使用替换功能",
+    "label5": "(0 - ID)",
+    "radioButton_replace": "替换",
+    "radioButton_recalculate": "重新计算",
+    "button_replace": "替换"
+  },
+  "tooltips": {
+    "chkSelectedValues": "仅在选中物品中替换",
+    "chkSelectedItems": "仅在选中物品中替换"
+  },
+  "lists": {}
+}

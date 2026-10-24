@@ -1,0 +1,17 @@
+{
+  "controls": {
+    "MethodsForm": "MethodsMap v1.9.0.3 (Wwh, 2018–2025)",
+    "btnopenrules": "Abrir regras",
+    "npcgen": "Abrir NPCGen",
+    "btnopenconfig": "Abrir configuração",
+    "_lblSearch": "Buscar:",
+    "btnSaveAllForms": "Salvar todas as janelas",
+    "_mnuRefresh": "Atualizar",
+    "_mnuFilter": "Filtrar...",
+    "_mnuPrepareMethod": "Preparar método",
+    "_mnuNullInvoke": "Invocação nula",
+    "_mnuCopy": "Copiar"
+  },
+  "tooltips": {},
+  "lists": {}
+}

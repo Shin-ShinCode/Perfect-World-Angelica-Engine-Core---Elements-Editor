@@ -1,0 +1,19 @@
+{
+  "legacy.msg.0.0": "Informação",
+  "legacy.msg.0.1": "Erro",
+  "legacy.msg.0.2": "Confirmação",
+  "legacy.msg.11.0": " ≈ $1 HP por segundo ($2 HP por minuto)",
+  "legacy.msg.13.0": "Resultados encontrados: $1",
+  "legacy.msg.14.0": "Não",
+  "legacy.msg.14.1": "Sim",
+  "legacy.msg.53.0": "Selecione tasks.data nas configurações ou clique em Atualizar referências",
+  "legacy.msg.53.1": "Carregando tasks.data...",
+  "legacy.msg.61.0": "Edição múltipla ativada.\\nPara selecionar itens separados, mantenha Ctrl pressionado. Para selecionar um intervalo, mantenha Shift pressionado.",
+  "legacy.msg.62.0": "Edição múltipla desativada.\\nPara selecionar itens separados, mantenha Ctrl pressionado. Para selecionar um intervalo, mantenha Shift pressionado.",
+  "legacy.msg.65.0": "Itens selecionados: $1",
+  "legacy.msg.66.0": "Total de itens: $1",
+  "legacy.msg.67.0": "Campo nº: $1",
+  "legacy.msg.70.0": "Status do ID: $1",
+  "legacy.msg.71.0": "Livre",
+  "legacy.msg.71.1": "Ocupado"
+}

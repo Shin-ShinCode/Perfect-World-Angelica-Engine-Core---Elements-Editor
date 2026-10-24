@@ -1,0 +1,43 @@
+{
+  "controls": {
+    "cmdUnprotectPCK": "移除保护",
+    "cmdProtectPCK": "设置保护",
+    "grpPCKProtection": "2. PCK 归档保护",
+    "grpOptions": "选项",
+    "chkCreateBackups": "创建备份",
+    "chkSkipErrors": "跳过错误",
+    "grpExtraFiles": "其他文件保护",
+    "txtCustomFile2": "数据\\\\gshop2.数据",
+    "chkProtectCustomFile2": "插入:",
+    "chkProtectGShop": "插入 gshop.数据在归档:",
+    "txtCustomFile": "数据\\\\gshop1.数据",
+    "chkProtectCustomFile": "插入:",
+    "chkProtectPathData": "插入路径.数据在归档:",
+    "chkProtectTasks": "不可用",
+    "lblPath": "路径",
+    "chkProtectServerlist": "不可用",
+    "chkProtectElements": "不可用",
+    "lblProtectionLevel": "保护等级:",
+    "cmdSaveKey": "保存 alexdnepro 启动器密钥",
+    "grpElementClient": "3. 修补 elementclient.exe",
+    "label2": "路径",
+    "button2": "设置保护",
+    "button3": "移除保护",
+    "chkPatchElementsReading": "修补元素数量",
+    "lblProject": "项目名称:",
+    "grpKey": "4. 加密密钥",
+    "cmdNextKey": "显示 alexdnepro 启动器密钥",
+    "lblGame": "游戏:",
+    "grpProjectSettings": "1. 参数",
+    "grpResult": "结果",
+    "cmdRestoreFiles": "打开文件夹带备份",
+    "chkPatchTasks": "修补任务与任务数量"
+  },
+  "tooltips": {
+    "txtClientPath": "可指定文件夹路径（例如 C:\\）",
+    "txtKey": "唯一归档加密密钥（密码）",
+    "txtElSign": "Elements 完整签名（版本）",
+    "numLicenseID": "许可证 ID"
+  },
+  "lists": {}
+}

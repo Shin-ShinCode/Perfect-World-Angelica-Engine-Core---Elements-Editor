@@ -1,0 +1,25 @@
+{
+  "controls": {
+    "cmdcancel": "Cancelar [Esc]",
+    "cmdok": "Confirmar [Enter]",
+    "optSet": "Definir valor",
+    "optRecalculate": "Recalcular valor",
+    "optReplace": "Substituir texto",
+    "label1": "Buscar:",
+    "label2": "Substituir por:",
+    "optRange": "Definir intervalo de valores",
+    "label3": "Valor inicial:",
+    "label5": "Incremento por etapa:",
+    "label6": "Valor máximo:",
+    "label7": "Valor mínimo:",
+    "optRandom": "Definir valor aleatório",
+    "lblPasteOldValueVar": "Dica: use a variável $oldvalue para inserir o valor anterior",
+    "label8": "Operação:",
+    "Preview": "Pré-visualização",
+    "optSortAscending": "Ordenar valores em ordem crescente (0 → 10)",
+    "optSortDescending": "Ordenar valores em ordem decrescente (10 → 0)",
+    "optRemoveDuplicates": "Remover valores duplicados (manter valores únicos)"
+  },
+  "tooltips": {},
+  "lists": {}
+}

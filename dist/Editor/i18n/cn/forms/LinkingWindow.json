@@ -1,0 +1,31 @@
+{
+  "controls": {
+    "cmdok": "确定 [回车]",
+    "label2": "掩码:",
+    "checkBox1": "不可损坏",
+    "checkBox2": "不可丢失",
+    "checkBox3": "不可出售",
+    "checkBox4": "死亡不掉落",
+    "checkBox7": "死亡保护",
+    "checkBox16": "“物品已绑定”",
+    "checkBox5": "不可交易",
+    "checkBox6": "不可精炼",
+    "checkBox14": "受到的伤害",
+    "checkBox15": "不可放入通用仓库",
+    "checkBox12": "在线时绑定",
+    "checkBox13": "不可修理",
+    "checkBox10": "立即使用",
+    "checkBox11": "死亡时消失",
+    "checkBox8": "禁止放入账号仓库",
+    "checkBox9": "离开当前位置",
+    "cmdUncheckAll": "无",
+    "cmdCheckAll": "全部",
+    "cmdcancel": "取消[ESC]"
+  },
+  "tooltips": {
+    "checkBox12": "角色退出游戏后，物品将消失",
+    "cmdUncheckAll": "全部取消选择……",
+    "cmdCheckAll": "全部选择……"
+  },
+  "lists": {}
+}

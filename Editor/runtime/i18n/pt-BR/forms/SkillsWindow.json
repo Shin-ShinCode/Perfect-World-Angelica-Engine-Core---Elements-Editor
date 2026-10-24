@@ -1,0 +1,19 @@
+{
+  "controls": {
+    "label1": "Selecione ou digite o ID:",
+    "cmdOk": "Selecionar [Enter]",
+    "clmName": "Nome",
+    "clmsID": "Selecione ou digite o ID:",
+    "clmSource": "Habilidade baseada em...",
+    "clmID": "Selecione ou digite o ID:",
+    "clmUsages": "Usada em...",
+    "cmdCancel": "Cancelar [Esc]"
+  },
+  "tooltips": {
+    "skills": "Clique duas vezes para selecionar",
+    "skillsbase": "Selecione o elemento base de onde carregar as habilidades",
+    "usedby": "Clique duas vezes para ir ao elemento selecionado",
+    "cmdFind": "Buscar próximo"
+  },
+  "lists": {}
+}

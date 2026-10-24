@@ -1,0 +1,12 @@
+{
+  "controls": {
+    "cmdOk": "选择",
+    "mnuChangeName": "修改",
+    "mnuDelete": "删除",
+    "mnuAdd": "添加"
+  },
+  "tooltips": {
+    "lstItemPos": "物品位置"
+  },
+  "lists": {}
+}

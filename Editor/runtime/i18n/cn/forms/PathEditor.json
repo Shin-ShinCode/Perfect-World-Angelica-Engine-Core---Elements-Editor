@@ -1,0 +1,31 @@
+{
+  "controls": {
+    "PathEditor": "通用数据编辑器：路径编辑器",
+    "toolStripMenuItem1": "文件",
+    "mnuOpen": "文件",
+    "mnuSave": "保存",
+    "mnuExit": "退出",
+    "cmdExport": "导出",
+    "cmdImport": "导入",
+    "lblSearch": "搜索:",
+    "cmdFindNext": "查找下一个",
+    "TimeStamp": "星期四，2014 年 2 月 13 日",
+    "cmdClose": "关闭",
+    "mnuAdd": "添加",
+    "mnuAdvancedChanging": "更改路径（高级）",
+    "mnuAdvancedChangingID": "更改ID（高级）",
+    "mnuDelete": "删除",
+    "mnuExport": "导出",
+    "clmPath": "路径",
+    "lblTimeStamp": "时间标志:",
+    "cmdDelete": "删除",
+    "cmdAdd": "添加",
+    "lblPath": "文件",
+    "cmdOpen": "打开",
+    "cmdSave": "保存",
+    "menuStrip_mainMenu": "主菜单",
+    "clmID": "请选择或输入 ID："
+  },
+  "tooltips": {},
+  "lists": {}
+}

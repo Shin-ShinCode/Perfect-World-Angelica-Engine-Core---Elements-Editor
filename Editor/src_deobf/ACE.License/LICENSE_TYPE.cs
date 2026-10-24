@@ -1,0 +1,14 @@
+namespace ACE.License;
+
+public enum LICENSE_TYPE
+{
+	UNKNOWN,
+	ACE,
+	LITE,
+	STANDART,
+	PROFESSIONAL,
+	BRAZILIAN_EDITION,
+	ULTIMATE,
+	TRIAL,
+	DEV
+}

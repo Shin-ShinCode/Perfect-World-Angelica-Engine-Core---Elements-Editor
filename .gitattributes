@@ -1,0 +1,22 @@
+# Editor runtime data — preserve EXACT bytes for binary/encoded files.
+# The .udedb addon/refine/abilities databases are UTF-16 text the editor reads with
+# Encoding.Unicode; line-ending conversion would corrupt them on checkout. Mark all
+# binary/encoded data as -text so git never applies EOL conversion on any platform.
+*.udedb -text
+*.edb   -text
+*.rae   -text
+*.data  -text
+*.png   -text
+*.bmp   -text
+*.ani   -text
+*.dds   -text
+*.tga   -text
+*.ico   -text
+*.pck   -text
+
+# Text config/overlay files: normalize to LF (the editor reads them line-by-line and is
+# CRLF-agnostic, so a deterministic LF avoids autocrlf churn across machines).
+*.cfg   text eol=lf
+*.csv   text eol=lf
+*.txt   text eol=lf
+*.json  text eol=lf

@@ -1,0 +1,136 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <LangVersion>latest</LangVersion>
+
+    <!-- Types in src_deobf carry their full namespace; keep root namespace empty. -->
+    <RootNamespace></RootNamespace>
+    <AssemblyName>Universal data Editor</AssemblyName>
+
+    <!-- Decompiled source: AssemblyInfo.cs is hand-supplied in src_deobf/Properties. -->
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+
+    <!-- Binary (bytearray.base64) resources live in the .resx files. -->
+    <GenerateResourceUsePreserializedResources>true</GenerateResourceUsePreserializedResources>
+
+    <!-- Recovered decompile: do not let warnings break the build. -->
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <NoWarn>$(NoWarn);CS0108;CS0114;CS0169;CS0414;CS0649;CS0067;CS1591;CS0162;CS0219;CS0618;CS0612;CS0660;CS0661;CS0628;CS0809;NU1701</NoWarn>
+
+    <!-- We drive compile/resource items explicitly from the src_deobf tree below. -->
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <EnableDefaultEmbeddedResourceItems>false</EnableDefaultEmbeddedResourceItems>
+    <EnableDefaultNoneItems>false</EnableDefaultNoneItems>
+
+    <!-- Consolidate build output into a single repo-root dist/ folder (no scattered bin/ folders). -->
+    <OutputPath>$(MSBuildThisFileDirectory)..\dist\Editor\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+
+  <!-- ===== Compile items: the whole deobfuscated tree ===== -->
+  <ItemGroup>
+    <Compile Include="src_deobf\**\*.cs" />
+  </ItemGroup>
+
+  <!-- ===== 3D viewer (SharpDX GFX) =====
+       The ACE.GFX SharpDX files decompiled with ref-math artifacts (CS1525); these were
+       fixed in place (((T)(ref v))._002Ector(..) -> v = new T(..); struct method calls
+       de-ref'd). GFX is woven into MainWindow / RSGlobal / PWMap, so it builds with the
+       rest of the editor by default. Set -p:ExcludeGfxViewer=true to carve it out (this
+       will then cascade errors into its consumers and is NOT a clean build). -->
+  <ItemGroup Condition="'$(ExcludeGfxViewer)' == 'true'">
+    <Compile Remove="src_deobf\ACE.GFX\**\*.cs" />
+  </ItemGroup>
+
+  <!-- ===== Embedded resources: WinForms .resx (flat, named by full type name) =====
+       ILSpy emitted each .resx flat at the src_deobf root named
+       "<Namespace>.<Type>.resx". Give each a LogicalName of "<Namespace>.<Type>.resources"
+       so ComponentResourceManager finds it at runtime. -->
+  <ItemGroup>
+    <EmbeddedResource Include="src_deobf\*.resx">
+      <LogicalName>%(Filename).resources</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <!-- ===== Native embedded resources carried by the original assembly ===== -->
+  <ItemGroup>
+    <EmbeddedResource Include="src_deobf\resources\app.ico">
+      <LogicalName>resources/app.ico</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src_deobf\SiV9Az9FW">
+      <LogicalName>SiV9Az9FW</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <PropertyGroup>
+    <ApplicationIcon>src_deobf\app.ico</ApplicationIcon>
+    <ApplicationManifest>src_deobf\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <!-- ===== Third-party libraries (public NuGet) =====
+       The bundled ACE.Dependency.* libs are decompiled INLINE in src_deobf and are NOT
+       referenced here. Versions chosen for net48 compatibility. -->
+  <ItemGroup>
+    <!-- SharpDX 3D stack (DX9 path used by the editor's viewer) -->
+    <PackageReference Include="SharpDX" Version="4.2.0" />
+    <PackageReference Include="SharpDX.Direct3D9" Version="4.2.0" />
+    <PackageReference Include="SharpDX.Mathematics" Version="4.2.0" />
+
+    <PackageReference Include="NCalc" Version="1.3.8" />
+    <PackageReference Include="LiteDB" Version="5.0.21" />
+    <PackageReference Include="YamlDotNet" Version="13.7.1" />
+    <PackageReference Include="Sentry" Version="3.41.0" />
+    <PackageReference Include="Pfim" Version="0.11.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="PhotoSauce.MagicScaler" Version="0.13.2" />
+    <PackageReference Include="SharpZipLib" Version="1.4.2" />
+
+    <!-- net48 reference assemblies as a package, so building needs only the .NET SDK
+         (no Visual Studio / .NET Framework Developer Pack on the machine). -->
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+
+    <!-- BCL polyfills for net48 -->
+    <PackageReference Include="System.Buffers" Version="4.5.1" />
+    <PackageReference Include="System.Memory" Version="4.5.5" />
+    <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Bcl.HashCode" Version="1.1.1" />
+    <PackageReference Include="System.Text.Json" Version="8.0.5" />
+    <PackageReference Include="System.Resources.Extensions" Version="8.0.0" />
+    <PackageReference Include="System.Net.Http.WinHttpHandler" Version="8.0.0" />
+  </ItemGroup>
+
+  <!-- ===== Framework references ===== -->
+  <ItemGroup>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <!-- Microsoft.mshtml PIA is not resolvable in an SDK-only build; the handful of
+         mshtml types the editor uses (tagPOINT, IHTMLDocument2.createStyleSheet) are
+         provided by src_deobf/_RecoveredMshtml/MshtmlInterop.cs instead. -->
+  </ItemGroup>
+
+  <!-- ===== Runtime data (configs/.cfg, Database, i18n, UserData overlays, Pictures) =====
+       The editor reads these from its working directory at runtime; they are NOT compiled.
+       Tracked under Editor/runtime/ and deployed next to the exe on build (incremental copy)
+       so a fresh checkout is runnable without manually staging data. -->
+  <ItemGroup>
+    <RuntimeData Include="runtime/**/*" />
+  </ItemGroup>
+  <Target Name="DeployRuntimeData" AfterTargets="Build">
+    <Copy SourceFiles="@(RuntimeData)"
+          DestinationFiles="@(RuntimeData-&gt;'$(OutDir)%(RecursiveDir)%(Filename)%(Extension)')"
+          SkipUnchangedFiles="true" />
+  </Target>
+
+</Project>

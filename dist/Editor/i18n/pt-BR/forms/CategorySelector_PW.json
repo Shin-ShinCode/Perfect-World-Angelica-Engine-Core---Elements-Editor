@@ -1,0 +1,10 @@
+{
+  "controls": {
+    "cmdOk": "Selecionar",
+    "mnuChangeName": "Renomear",
+    "mnuDelete": "Excluir",
+    "mnuAdd": "Adicionar"
+  },
+  "tooltips": {},
+  "lists": {}
+}

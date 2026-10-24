@@ -1,0 +1,35 @@
+namespace ACE.GFX;
+
+public enum GfxElementType
+{
+	None = -1,
+	Decal3D = 100,
+	Decal2D = 101,
+	DecalBillboard = 102,
+	Trail = 110,
+	TrailEx = 111,
+	ParticlePoint = 120,
+	ParticleBox = 121,
+	ParticleMultiPlane = 122,
+	ParticleEllipsoid = 123,
+	ParticleCylinder = 124,
+	ParticleCurve = 125,
+	ParticleSkeleton = 126,
+	Light = 130,
+	Ring = 140,
+	Lightning = 150,
+	LtnBolt = 151,
+	LightningEx = 152,
+	Model = 160,
+	Sound = 170,
+	LtnTrail = 180,
+	Paraboloid = 190,
+	GfxContainer = 200,
+	GridDecal3D = 210,
+	GridDecal2D = 211,
+	PhysEmitter = 220,
+	PhysPointEmitter = 221,
+	ECModel = 230,
+	Ribbon = 240,
+	ModelProxy = 250
+}

@@ -1,0 +1,33 @@
+{
+  "controls": {
+    "RulesWindow": "元素结构差异（规则界面）",
+    "button_view": "查看规则……",
+    "button_import": "导入规则……",
+    "button_export": "导出规则……",
+    "groupBox2": "列表",
+    "Column7": "基准值",
+    "Column8": "新文件值",
+    "Column1": "基准字段",
+    "Column2": "新文件字段",
+    "Column3": "数值不匹配",
+    "Column4": "删除",
+    "Column6": "分析",
+    "radioButton_recentOffset": "保留新文件偏移量",
+    "radioButton_baseOffset": "使用基准文件偏移量",
+    "checkBox_removeList": "移除列表",
+    "groupBox1": "文件",
+    "button_browseRecent": "浏览……",
+    "button_browseBase": "浏览……",
+    "label4": "版本：",
+    "label3": "版本：",
+    "label2": "新文件：",
+    "label1": "基准文件："
+  },
+  "tooltips": {
+    "dataGridView_fields": "比较所选列表中的字段。\n如果新文件的该列表字段多于基准文件，则需要移除部分字段。\n\n“不匹配数”会比较相关字段的所有元素值，并统计不同值的数量。不匹配数较高可能表示新文件的当前列表中新增了字段。\n\n“删除”会移除新文件中的字段并刷新视图（重新计算与已移除字段有关的不匹配数）。\n\n“分析”会详细比较基准文件与新文件当前列表中相关字段的所有元素值。",
+    "radioButton_recentOffset": "保留新文件中的列表偏移量。\n偏移量可疑的列表：0、20、100。\n\n对于版本 7 的基准文件（1.2.6 服务端），列表 0、20、100 必须使用基准文件的偏移量！",
+    "radioButton_baseOffset": "使用基准文件而非新文件中的列表偏移量。\n偏移量可疑的列表：0、20、100。\n\n对于版本 7 的基准文件（1.2.6 服务端），列表 0、20、100 必须使用基准文件的偏移量！",
+    "checkBox_removeList": "移除所选列表。"
+  },
+  "lists": {}
+}

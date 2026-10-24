@@ -1,0 +1,9 @@
+{
+  "controls": {
+    "cmdCancel": "Cancelar [Esc]",
+    "cmdAccept": "Confirmar [Enter]",
+    "lblCaption": "Digite os dados aqui:"
+  },
+  "tooltips": {},
+  "lists": {}
+}

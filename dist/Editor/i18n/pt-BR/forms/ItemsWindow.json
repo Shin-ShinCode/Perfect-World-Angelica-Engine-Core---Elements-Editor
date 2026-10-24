@@ -1,0 +1,16 @@
+{
+  "controls": {
+    "ItemsWindow": "Selecionar item... [Esc — Cancelar]",
+    "findnext": "Próximo",
+    "cmdok": "Confirmar [Enter]",
+    "cmdcancel": "Cancelar [Esc]",
+    "label1": "Selecione ou digite o ID:",
+    "clmName": "Nome",
+    "clmID": "Selecione ou digite o ID:"
+  },
+  "tooltips": {
+    "cmdselectlast": "Rolar até o último elemento",
+    "txtfind": "Digite o nome do elemento para localizá-lo rapidamente"
+  },
+  "lists": {}
+}

@@ -1,0 +1,19 @@
+{
+  "controls": {
+    "cmdok": "确定 [回车]",
+    "label2": "掩码:",
+    "cmdUncheckAll": "无",
+    "cmdCheckAll": "全部",
+    "cmdcancel": "取消[ESC]",
+    "checkBox5": "水／油",
+    "checkBox3": "蘑菇",
+    "checkBox4": "水果／蔬菜",
+    "checkBox1": "草料",
+    "checkBox2": "肉类"
+  },
+  "tooltips": {
+    "cmdUncheckAll": "全部取消选择……",
+    "cmdCheckAll": "全部选择……"
+  },
+  "lists": {}
+}
