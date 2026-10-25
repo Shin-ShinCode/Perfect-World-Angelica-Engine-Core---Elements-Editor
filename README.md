@@ -53,6 +53,7 @@ As alterações abaixo focam problemas observados no uso do Editor e na manuten�
 | Algumas dicas e descrições ocupavam espaço, apareciam associadas ao controle errado ou atrapalhavam a leitura. | As dicas foram encurtadas e associadas às opções correspondentes; o layout foi ajustado para manter os controles visíveis. |
 | A identificação das versões dos arquivos abertos não ficava clara no editor Tasks. | A janela passou a apresentar as versões de `tasks.data` e `elements.data` quando essas informações estão disponíveis. |
 | A gravação interrompida poderia deixar um arquivo parcialmente escrito. | Os fluxos de gravação principais usam arquivo temporário seguido da substituição do destino, reduzindo o risco de saída incompleta em falhas durante a gravação. |
+| Exportar `elements.data` podia apagar o destino antes de terminar; extrair uma pasta PCK removia a pasta escolhida, aceitava caminhos internos fora dela e podia reportar sucesso com arquivos faltando. | A exportação agora grava em arquivo temporário e só substitui o destino depois de validar a saída. A extração PCK preserva arquivos existentes, rejeita caminhos fora da pasta e informa falhas por arquivo. |
 | Opções coloridas e textos tinham contraste inconsistente entre temas. | Foram feitos ajustes de cores e apresentação para melhorar a leitura nos temas claro e escuro sem remover os rótulos das opções. |
 
 ## 💻 Requisitos

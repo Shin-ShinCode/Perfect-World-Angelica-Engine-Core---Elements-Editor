@@ -2223,11 +2223,9 @@ public class PCK
 		if (pathInPck != null && FileTableIndices != null)
 		{
 			pathInPck = FixPath(pathInPck);
-			if (Directory.Exists(pathOnDisc))
-			{
-				Directory.Delete(pathOnDisc, recursive: true);
-			}
-			Directory.CreateDirectory(pathOnDisc);
+			string extractionRoot = System.IO.Path.GetFullPath(pathOnDisc);
+			string extractionPrefix = extractionRoot.TrimEnd(System.IO.Path.DirectorySeparatorChar, System.IO.Path.AltDirectorySeparatorChar) + System.IO.Path.DirectorySeparatorChar;
+			Directory.CreateDirectory(extractionRoot);
 			if (!pathInPck.EndsWith(Class16.smethod_0(1648927580)))
 			{
 				pathInPck += Class16.smethod_0(1648927580);
@@ -2253,7 +2251,11 @@ public class PCK
 						}
 					}
 				}
-				string path = System.IO.Path.Combine(pathOnDisc, text);
+				string path = System.IO.Path.GetFullPath(System.IO.Path.Combine(extractionRoot, text));
+				if (!path.StartsWith(extractionPrefix, StringComparison.OrdinalIgnoreCase))
+				{
+					throw new InvalidDataException("O caminho do arquivo PCK sai da pasta de extração permitida: " + key);
+				}
 				byte[] fileContent = Pck.GetFileContent(fileTableIndex.Value);
 				if (fileContent != null)
 				{
@@ -2263,6 +2265,10 @@ public class PCK
 						Directory.CreateDirectory(directoryName);
 					}
 					File.WriteAllBytes(path, fileContent);
+				}
+				else
+				{
+					throw new InvalidDataException("O arquivo não pôde ser lido do PCK: " + key);
 				}
 			}
 			return true;

@@ -265,14 +265,25 @@ public class PCKArchiveManager : IDisposable
 			List<string> list = ienumerable_0.ToList();
 			int count = list.Count;
 			int num = 0;
+			string extractionRoot = System.IO.Path.GetFullPath(string_0);
+			string extractionPrefix = extractionRoot.TrimEnd(System.IO.Path.DirectorySeparatorChar, System.IO.Path.AltDirectorySeparatorChar) + System.IO.Path.DirectorySeparatorChar;
 			pckarchiveManager_0.method_2(PckOperationStage.Extracting, 0, count, 0L, 0L, string.Empty, Class16.smethod_0(1649194816));
 			foreach (string item in list)
 			{
 				if (!cancellationToken_0.IsCancellationRequested)
 				{
-					string outputPath = System.IO.Path.Combine(string_0, item.Replace('/', '\\'));
+					string outputPath = System.IO.Path.GetFullPath(System.IO.Path.Combine(extractionRoot, item.Replace('/', '\\')));
+					if (!outputPath.StartsWith(extractionPrefix, StringComparison.OrdinalIgnoreCase))
+					{
+						pckarchiveManager_0.method_2(PckOperationStage.Error, num, count, 0L, 0L, item, "O caminho do arquivo PCK sai da pasta de extração permitida.");
+						return false;
+					}
 					pckarchiveManager_0.method_2(PckOperationStage.Extracting, num, count, 0L, 0L, item, Class16.smethod_0(1649194872) + System.IO.Path.GetFileName(item) + Class16.smethod_0(1648924410));
-					pckarchiveManager_0.ExtractFile(item, outputPath);
+					if (!pckarchiveManager_0.ExtractFile(item, outputPath))
+					{
+						pckarchiveManager_0.method_2(PckOperationStage.Error, num, count, 0L, 0L, item, "Não foi possível extrair este arquivo PCK.");
+						return false;
+					}
 					num++;
 					continue;
 				}

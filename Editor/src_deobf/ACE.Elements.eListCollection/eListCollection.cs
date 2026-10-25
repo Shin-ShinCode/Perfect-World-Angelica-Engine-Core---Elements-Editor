@@ -6451,12 +6451,33 @@ public class eListCollection
 
 	public void Export(string RulesFile, string TargetFile)
 	{
+		string fullPath = System.IO.Path.GetFullPath(TargetFile);
+		string temporaryPath = CreateSiblingTemporaryPath(fullPath);
+		try
+		{
+			ExportToFile(RulesFile, temporaryPath);
+			using (FileStream validationStream = new FileStream(temporaryPath, FileMode.Open, FileAccess.Read, FileShare.Read))
+			using (BinaryReader validationReader = new BinaryReader(validationStream))
+			{
+				if (validationStream.Length < sizeof(short) * 2)
+				{
+					throw new InvalidDataException("O arquivo exportado de Elements está incompleto.");
+				}
+				validationReader.ReadInt16();
+				validationReader.ReadInt16();
+			}
+			CommitSiblingTemporaryFile(temporaryPath, fullPath);
+		}
+		finally
+		{
+			TryDeleteTemporaryFile(temporaryPath);
+		}
+	}
+
+	private void ExportToFile(string RulesFile, string TargetFile)
+	{
 		Hashtable rules = new Hashtable();
 		ACE.RSGlobal.RSGlobal.loadRules(RulesFile, ref rules, isinclude: false);
-		if (File.Exists(TargetFile))
-		{
-			File.Delete(TargetFile);
-		}
 		FileStream fileStream = new FileStream(TargetFile, FileMode.Create, FileAccess.Write);
 		BinaryWriter binaryWriter = new BinaryWriter(fileStream);
 		short num = Convert.ToInt16((string)rules[Class16.smethod_0(1648962988)]);
