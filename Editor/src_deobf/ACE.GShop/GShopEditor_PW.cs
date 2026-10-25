@@ -6796,20 +6796,24 @@ public class GShopEditor_PW : Form
 	private void toolStripMenuItem_20_Click(object sender, EventArgs e)
 	{
 		int num = 0;
+		int updatedCount = 0;
 		if (0 < dataGridViewEx_0.SelectedRows.Count)
 		{
 			do
 			{
 				int num2 = (int)dataGridViewEx_0.SelectedRows[num].Tag;
 				GSHOP_ITEM[] items = DataFiles.GShop.Items;
-				if (eLC.IsItemExist(items[num2].ItemInfo))
+				if (num2 >= 0 && num2 < items.Length && method_51(items[num2], bool_7: false))
 				{
-					GSHOP_ITEM[] items2 = DataFiles.GShop.Items;
-					method_51(items2[num2], bool_7: false);
+					updatedCount++;
 				}
 				num++;
 			}
 			while (num < dataGridViewEx_0.SelectedRows.Count);
+		}
+		if (updatedCount == 0)
+		{
+			TextStorage.TEXTS.ShowErrorMessage(257);
 		}
 		bool flag = !DontChange;
 		DontChange = true;
@@ -6822,9 +6826,22 @@ public class GShopEditor_PW : Form
 		method_5();
 	}
 
-	private void method_51(GSHOP_ITEM gshop_ITEM_0, [MarshalAs(UnmanagedType.U1)] bool bool_7)
+	private bool method_51(GSHOP_ITEM gshop_ITEM_0, [MarshalAs(UnmanagedType.U1)] bool bool_7)
 	{
-		string text = gshop_ITEM_0.ItemInfo.name;
+		if (gshop_ITEM_0 == null || eLC == null)
+		{
+			return false;
+		}
+		// ItemInfo.pos is a snapshot from when the shop was loaded. Resolve by the
+		// stable item ID so a reload/reorder of elements.data cannot leave it stale.
+		ITEMPOS currentPosition = eLC.FindMatter(gshop_ITEM_0.ItemID);
+		ITEMINFO currentItemInfo = eLC.GetItemInfo(currentPosition, bUseCache: false, bCheckIsFreeID: false, bCheckHasReferences: false);
+		if (currentItemInfo == null || string.IsNullOrWhiteSpace(currentItemInfo.name))
+		{
+			return false;
+		}
+		gshop_ITEM_0.ItemInfo = currentItemInfo;
+		string text = currentItemInfo.name;
 		if (bool_7)
 		{
 			int count = gshop_ITEM_0.Count;
@@ -6839,7 +6856,7 @@ public class GShopEditor_PW : Form
 			}
 		}
 		gshop_ITEM_0.sName = text;
-		GC.KeepAlive(this);
+		return true;
 	}
 
 	private void method_52(GSHOP_ITEM gshop_ITEM_0)
@@ -9014,20 +9031,24 @@ public class GShopEditor_PW : Form
 	private void toolStripMenuItem_65_Click(object sender, EventArgs e)
 	{
 		int num = 0;
+		int updatedCount = 0;
 		if (0 < dataGridViewEx_0.SelectedRows.Count)
 		{
 			do
 			{
 				int num2 = (int)dataGridViewEx_0.SelectedRows[num].Tag;
 				GSHOP_ITEM[] items = DataFiles.GShop.Items;
-				if (eLC.IsItemExist(items[num2].ItemInfo))
+				if (num2 >= 0 && num2 < items.Length && method_51(items[num2], bool_7: true))
 				{
-					GSHOP_ITEM[] items2 = DataFiles.GShop.Items;
-					method_51(items2[num2], bool_7: true);
+					updatedCount++;
 				}
 				num++;
 			}
 			while (num < dataGridViewEx_0.SelectedRows.Count);
+		}
+		if (updatedCount == 0)
+		{
+			TextStorage.TEXTS.ShowErrorMessage(257);
 		}
 		bool flag = !DontChange;
 		DontChange = true;
