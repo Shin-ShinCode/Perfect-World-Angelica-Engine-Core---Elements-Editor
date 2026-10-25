@@ -999,7 +999,20 @@ public class MODEL_VIEWER
 		}
 		if (!string.IsNullOrWhiteSpace(ModelName) && (CurrentPck != null || bLocalFile))
 		{
-			if (IsDir)
+			// ECM files are complete model entry points, not model names that should be
+			// resolved to a sibling SKI first. Returning the ECM path lets
+			// ShowModelPreview route it through method_3, which loads its skeleton,
+			// animations, and referenced skin model.
+			if (!IsDir && ModelName.EndsWith(Class16.smethod_0(1648906325), StringComparison.OrdinalIgnoreCase))
+			{
+				ModelDir = System.IO.Path.GetDirectoryName(ModelName);
+				model_gender = gender;
+				if (FileExists(ModelName))
+				{
+					text2 = ModelName;
+				}
+			}
+			else if (IsDir)
 			{
 				GENDER gENDER = gender;
 				int num = 0;
