@@ -376,6 +376,10 @@ public class PCK_LIST
 
 	public void SetPcksList(string[] PckFiles)
 	{
+		// Replacing the archive map must also release PCK instances opened through
+		// the previous map. Reset is safe when the caller already reset the list.
+		Reset();
+
 		List<string> list = new List<string>();
 		if (PckFiles != null && PckFiles.Length != 0)
 		{
@@ -396,8 +400,6 @@ public class PCK_LIST
 		if (array.Length == 0)
 		{
 			FileNames = null;
-			PCKs?.Clear();
-			PCKs = null;
 			return;
 		}
 		FileNames = new ConcurrentDictionary<string, string>(Environment.ProcessorCount, array.Length, StringComparer.OrdinalIgnoreCase);

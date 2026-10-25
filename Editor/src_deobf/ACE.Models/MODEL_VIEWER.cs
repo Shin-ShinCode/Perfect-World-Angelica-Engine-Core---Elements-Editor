@@ -559,11 +559,11 @@ public class MODEL_VIEWER
 		GC.KeepAlive(this);
 	}
 
-	private static void smethod_3(ModelClass modelClass_0, string string_1)
+	private static bool smethod_3(ModelClass modelClass_0, string string_1)
 	{
 		if (modelClass_0 == null)
 		{
-			return;
+			return false;
 		}
 		try
 		{
@@ -579,7 +579,7 @@ public class MODEL_VIEWER
 				{
 					if (!PWMeshReader.ReadFile(memoryStream))
 					{
-						return;
+						return false;
 					}
 				}
 				finally
@@ -590,7 +590,7 @@ public class MODEL_VIEWER
 			}
 			if (pwMeshContainer2 == null)
 			{
-				return;
+				return false;
 			}
 			string text = string_1 ?? Class16.smethod_0(1649119432);
 			smethod_4(modelClass_0, text);
@@ -604,11 +604,14 @@ public class MODEL_VIEWER
 					ACE.RSGlobal.RSGlobal.SetForegroundWindow(ParentHandle);
 				}
 				bWinPosHidden = false;
+				return true;
 			}
+			return false;
 		}
 		catch (Exception ex)
 		{
 			SentryHelper.CaptureException(ex, Class16.smethod_0(1649122597));
+			return false;
 		}
 	}
 
@@ -770,19 +773,23 @@ public class MODEL_VIEWER
 					}
 					if (modelClass != null && ((modelClass.skyfile != null && modelClass.skyfile.Length != 0) || modelClass.ECM != null))
 					{
-						smethod_3(modelClass, Caption);
-						LastShowedModel = ModelName;
+						if (smethod_3(modelClass, Caption))
+						{
+							LastShowedModel = ModelName;
+						}
+						else
+						{
+							HidePreviewWindow(bCloseWindow: false);
+						}
 					}
 					else
 					{
 						HidePreviewWindow(bCloseWindow: false);
-						LastShowedModel = ModelName;
 					}
 				}
 				else
 				{
 					HidePreviewWindow(bCloseWindow: false);
-					LastShowedModel = ModelName;
 				}
 			}
 			else
@@ -1165,7 +1172,10 @@ public class MODEL_VIEWER
 			ModelClass modelClass = method_3(fn);
 			if (modelClass != null)
 			{
-				smethod_3(modelClass, fn);
+				if (!smethod_3(modelClass, fn))
+				{
+					HidePreviewWindow(bCloseWindow: false);
+				}
 				bLocalFile = false;
 				return;
 			}
