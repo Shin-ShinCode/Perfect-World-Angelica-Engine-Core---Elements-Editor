@@ -5361,6 +5361,17 @@ public class eListCollection
 				{
 					return FIELDTYPE.ft_quest;
 				}
+				// NPC_ESSENCE.id_src_monster points to an element record, not a plain
+				// integer. Use the editor's standard NPC/monster/mine reference renderer
+				// so the value displays its name/icon and supports Ctrl+click navigation.
+				if (Game == GAMES.PW
+					&& eList2.ListType == ItemType.PW_NPC_ESSENCE
+					&& eList2.elementFields != null
+					&& int_2 < eList2.elementFields.Length
+					&& string.Equals(eList2.elementFields[int_2], "id_src_monster", StringComparison.OrdinalIgnoreCase))
+				{
+					return FIELDTYPE.mob_npc_mine;
+				}
 				if (eList2.ListType == ItemType.PW_NPC_MAKE_SERVICE
 					&& eList2.elementFields != null
 					&& int_2 < eList2.elementFields.Length
@@ -5470,6 +5481,26 @@ public class eListCollection
 			return true;
 		}
 
+		// PW task-service CFGs use both tasks_data_N_id_tasks and
+		// tasks_data_N_taskID / tasks_N_tasks_data_1_id_task naming styles.
+		// The ID-space companion fields intentionally remain ordinary integers.
+		int taskDataIndex = fieldName.IndexOf("tasks_data_", StringComparison.OrdinalIgnoreCase);
+		if (taskDataIndex >= 0)
+		{
+			int indexStart = taskDataIndex + "tasks_data_".Length;
+			int indexEnd = fieldName.IndexOf('_', indexStart);
+			if (indexEnd > indexStart && ContainsOnlyDigits(fieldName, indexStart, indexEnd))
+			{
+				string suffix = fieldName.Substring(indexEnd);
+				if (suffix.Equals("_id_tasks", StringComparison.OrdinalIgnoreCase)
+					|| suffix.Equals("_taskid", StringComparison.OrdinalIgnoreCase)
+					|| suffix.Equals("_id_task", StringComparison.OrdinalIgnoreCase))
+				{
+					return true;
+				}
+			}
+		}
+
 		string prefix;
 		if (fieldName.StartsWith("tasks_", StringComparison.OrdinalIgnoreCase))
 		{
@@ -5486,7 +5517,8 @@ public class eListCollection
 
 		if (!fieldName.EndsWith("_id", StringComparison.OrdinalIgnoreCase))
 		{
-			return false;
+			return fieldName.EndsWith("_id_task", StringComparison.OrdinalIgnoreCase)
+				|| fieldName.EndsWith("_id_tasks", StringComparison.OrdinalIgnoreCase);
 		}
 
 		int numberLength = fieldName.Length - prefix.Length - 3;
@@ -5504,6 +5536,19 @@ public class eListCollection
 		}
 
 		return fieldName[prefix.Length + numberLength] == '_';
+	}
+
+	private static bool ContainsOnlyDigits(string value, int startIndex, int endIndex)
+	{
+		for (int i = startIndex; i < endIndex; i++)
+		{
+			if (!char.IsDigit(value[i]))
+			{
+				return false;
+			}
+		}
+
+		return true;
 	}
 
 	public FIELDTYPE GetFieldType(ITEMPOS ItemPos, int int_0)
