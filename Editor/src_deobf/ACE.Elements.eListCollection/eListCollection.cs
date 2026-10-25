@@ -5313,6 +5313,33 @@ public class eListCollection
 
 	public int[] GetFieldLists(int int_0, int int_1, int int_2)
 	{
+		// id_src_monster is a single-kind reference. The generic mob_npc_mine
+		// field type includes overlapping ID namespaces, so constrain this field
+		// to the monster list instead of accidentally resolving an NPC with the
+		// same numeric ID.
+		if (Game == GAMES.PW
+			&& Lists != null
+			&& int_0 >= 0
+			&& int_0 < ListCount
+			&& int_0 < Lists.Length
+			&& Lists[int_0] != null
+			&& Lists[int_0].ListType == ItemType.PW_NPC_ESSENCE
+			&& Lists[int_0].elementFields != null
+			&& int_2 >= 0
+			&& int_2 < Lists[int_0].elementFields.Length
+			&& string.Equals(Lists[int_0].elementFields[int_2], "id_src_monster", StringComparison.OrdinalIgnoreCase))
+		{
+			for (int listIndex = 0; listIndex < ListCount; listIndex++)
+			{
+				if (Lists[listIndex] != null && Lists[listIndex].ListType == ItemType.PW_MONSTER_ESSENCE)
+				{
+					return new int[1] { listIndex };
+				}
+			}
+
+			return Array.Empty<int>();
+		}
+
 		int[] array = null;
 		FIELDTYPE fieldType = GetFieldType(int_0, int_1, int_2);
 		if (fieldType == FIELDTYPE.custom_list)
@@ -11864,10 +11891,20 @@ public class eListCollection
 								QUEST_INFO questInfo = Tasks.GetQuestInfo(valueIFast);
 								if (questInfo != null)
 								{
-									valueIFast = Params.FieldHeight;
-									Bitmap image2 = (Bitmap)questInfo.image;
-									int num7 = valueIFast;
-									image = ICONS.ResizeImage(image2, num7, num7);
+									Image questImage = questInfo.image;
+									if (questImage == null
+										&& TASKS.QuestImageList != null
+										&& questInfo.ImageIndex >= 0
+										&& questInfo.ImageIndex < TASKS.QuestImageList.Images.Count)
+									{
+										questImage = TASKS.QuestImageList.Images[questInfo.ImageIndex];
+									}
+									if (questImage is Bitmap questBitmap)
+									{
+										valueIFast = Params.FieldHeight;
+										int num7 = valueIFast;
+										image = ICONS.ResizeImage(questBitmap, num7, num7);
+									}
 									nameColor = questInfo.color;
 								}
 							}
@@ -11977,6 +12014,7 @@ public class eListCollection
 					}
 					else if (fieldType == FIELDTYPE.ft_quest)
 					{
+						hTML_HELPER.bViewIcon = image != null;
 						int int_3 = ItemPos.int_0;
 						int_3 = Lists[int_3].GetValueIFast(int_2, num5);
 						GC.KeepAlive(this);
