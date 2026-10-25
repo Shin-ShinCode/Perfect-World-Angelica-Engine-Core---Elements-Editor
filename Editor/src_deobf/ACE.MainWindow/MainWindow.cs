@@ -16468,8 +16468,8 @@ public class MainWindow : Form
 											else
 											{
 												TextStorage.TEXTS.ShowErrorMessage(677);
+												break;
 											}
-											break;
 										}
 										if (state_LOAD_3 == STATE_LOAD.None)
 										{

@@ -1007,10 +1007,9 @@ public class MODEL_VIEWER
 			{
 				ModelDir = System.IO.Path.GetDirectoryName(ModelName);
 				model_gender = gender;
-				if (FileExists(ModelName))
-				{
-					text2 = ModelName;
-				}
+				// Let the ECM loader perform the actual read. PCK path lookup can reject
+				// valid Unicode/relative entries even though GetFileB can resolve them.
+				text2 = ModelName;
 			}
 			else if (IsDir)
 			{
