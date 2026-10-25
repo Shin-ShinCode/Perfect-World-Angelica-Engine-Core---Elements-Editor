@@ -6089,19 +6089,17 @@ public class eListCollection
 							for (int i = 0; i < int_1; i++)
 							{
 								int num = int_0 + i;
+								ACE.Elements.eList.eList currentList = Lists[num];
+								int fieldCount = GetSaveFieldCount(currentList, num);
 								if (num == int_2)
 								{
-									for (int j = 0; j < Lists[num].elementValues.Length; j++)
+									for (int j = 0; j < currentList.elementValues.Length; j++)
 									{
-										object[] values = Lists[num].elementValues[j];
-										if (values == null || Lists[num].FieldDataTypes == null || values.Length != Lists[num].FieldDataTypes.Length)
+										object[] values = currentList.elementValues[j];
+										ValidateSaveItemValues(currentList, values, fieldCount, num, j);
+										for (int k = 0; k < fieldCount; k++)
 										{
-											throw new InvalidDataException(string.Format("A lista {0}, item {1}, não corresponde à quantidade de campos definida pela CFG.", num, j));
-										}
-										int num2 = values.Length;
-										for (int k = 0; k < num2; k++)
-										{
-											ACE.Elements.eList.eList.writeValue(binaryWriter, values[k], Lists[num].FieldDataTypes[k].data_type, k, null);
+											ACE.Elements.eList.eList.writeValue(binaryWriter, values[k], currentList.FieldDataTypes[k].data_type, k, null);
 										}
 									}
 								}
@@ -6116,24 +6114,20 @@ public class eListCollection
 									}
 									for (int l = 0; l < num3; l++)
 									{
-										object[] values = Lists[num].elementValues[l];
-										if (values == null || Lists[num].FieldDataTypes == null || values.Length != Lists[num].FieldDataTypes.Length)
-										{
-											throw new InvalidDataException(string.Format("A lista {0}, item {1}, não corresponde à quantidade de campos definida pela CFG.", num, l));
-										}
+										object[] values = currentList.elementValues[l];
+										ValidateSaveItemValues(currentList, values, fieldCount, num, l);
 										using MemoryStream memoryStream = new MemoryStream();
 										BinaryWriter binaryWriter2 = new BinaryWriter(memoryStream);
 										try
 										{
-											int num4 = values.Length;
-											for (int m = 0; m < num4; m++)
+											for (int m = 0; m < fieldCount; m++)
 											{
-												ACE.Elements.eList.eList.writeValue(binaryWriter2, values[m], Lists[num].FieldDataTypes[m].data_type, m, null);
+												ACE.Elements.eList.eList.writeValue(binaryWriter2, values[m], currentList.FieldDataTypes[m].data_type, m, null);
 											}
 											byte[] buffer = memoryStream.ToArray();
 											byte[] array = Lists[num].mppc_managed.compress(buffer);
 											list.AddRange(array);
-											binaryWriter.Write(Convert.ToInt32(Lists[num].GetValue(l, 0)));
+											binaryWriter.Write(Convert.ToInt32(currentList.GetValue(l, 0)));
 											binaryWriter.Write(Convert.ToInt16(array.Length));
 										}
 										finally
@@ -6178,6 +6172,7 @@ public class eListCollection
 							{
 								int num6 = int_0 + n;
 								ACE.Elements.eList.eList eList2 = Lists[num6];
+								int fieldCount = GetSaveFieldCount(eList2, num6);
 								byte[] listOffsetData = eList2.listOffsetData;
 								if (listOffsetData != null && listOffsetData.Length != 0)
 								{
@@ -6213,30 +6208,13 @@ public class eListCollection
 										binaryWriter.Write(value3);
 									}
 								}
-								int val = ((eList2.elementTypes != null) ? eList2.elementTypes.Length : 0);
-								int num8 = ((eList2.FieldDataTypes != null) ? eList2.FieldDataTypes.Length : 0);
 								for (int num9 = 0; num9 < eList2.elementValues.Length; num9++)
 								{
 									object[] array2 = eList2.elementValues[num9];
-									if (array2 == null)
+									ValidateSaveItemValues(eList2, array2, fieldCount, num6, num9);
+									for (int num11 = 0; num11 < fieldCount; num11++)
 									{
-										throw new InvalidDataException(string.Format("A lista {0}, item {1}, não contém valores carregados.", num6, num9));
-									}
-									if (array2.Length != val)
-									{
-										throw new InvalidDataException(string.Format("A lista {0}, item {1}, possui {2} valores, mas a CFG define {3} campos.", num6, num9, array2.Length, val));
-									}
-									int num10 = array2.Length;
-									for (int num11 = 0; num11 < num10; num11++)
-									{
-										if (eList2.FieldDataTypes != null && num11 < num8)
-										{
-											ACE.Elements.eList.eList.writeValue(binaryWriter, array2[num11], eList2.FieldDataTypes[num11].data_type, num11, null);
-										}
-										else
-										{
-											smethod_10(binaryWriter, array2[num11], eList2.elementTypes[num11]);
-										}
+										ACE.Elements.eList.eList.writeValue(binaryWriter, array2[num11], eList2.FieldDataTypes[num11].data_type, num11, null);
 									}
 								}
 								if (toolStripProgressBar_0 != null && !toolStripProgressBar_0.IsDisposed)
@@ -6300,6 +6278,40 @@ public class eListCollection
 			return true;
 		}
 		return method_23(elFile, FN);
+	}
+
+	private static int GetSaveFieldCount(ACE.Elements.eList.eList list, int listIndex)
+	{
+		int fieldCount = list.elementTypes?.Length ?? 0;
+		if (list.FieldDataTypes == null || list.FieldDataTypes.Length != fieldCount)
+		{
+			list.CreateFastDataTypes();
+		}
+		if (list.FieldDataTypes == null || list.FieldDataTypes.Length != fieldCount)
+		{
+			throw new InvalidDataException(string.Format(
+				"A lista {0} ({1}) não possui tipos de campo compatíveis com a CFG. Campos: {2}; tipos: {3}.",
+				listIndex,
+				list.uListName ?? "sem nome",
+				fieldCount,
+				list.FieldDataTypes?.Length ?? 0));
+		}
+		return fieldCount;
+	}
+
+	private static void ValidateSaveItemValues(ACE.Elements.eList.eList list, object[] values, int fieldCount, int listIndex, int itemIndex)
+	{
+		// The reader allocates one extra slot per item as a sentinel; it is not a CFG field.
+		if (values == null || values.Length < fieldCount || values.Length > fieldCount + 1)
+		{
+			throw new InvalidDataException(string.Format(
+				"A lista {0} ({1}), item {2}, possui {3} valores para {4} campos da CFG (um espaço extra de leitura é permitido).",
+				listIndex,
+				list.uListName ?? "sem nome",
+				itemIndex,
+				values?.Length ?? 0,
+				fieldCount));
+		}
 	}
 
 	private static string CreateSiblingTemporaryPath(string destination)
