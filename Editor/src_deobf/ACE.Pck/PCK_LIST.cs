@@ -375,26 +375,38 @@ public class PCK_LIST
 
 	public void SetPcksList(string[] PckFiles)
 	{
+		List<string> list = new List<string>();
 		if (PckFiles != null && PckFiles.Length != 0)
 		{
-			FileNames = new ConcurrentDictionary<string, string>(Environment.ProcessorCount, PckFiles.Length);
-			foreach (string text in PckFiles)
-			{
-				if (!string.IsNullOrWhiteSpace(text) && File.Exists(text))
-				{
-					string fileNameWithoutExtension = System.IO.Path.GetFileNameWithoutExtension(text);
-					FileNames.TryAdd(fileNameWithoutExtension, text);
-				}
-			}
-			PCKs = new ConcurrentDictionary<string, PCK>(Environment.ProcessorCount, FileNames.Count);
-			GC.KeepAlive(this);
+			list.AddRange(PckFiles);
 		}
-		else
+		// The individual Files settings are authoritative too. Keep them available
+		// even when a user has customized the general PCK list without adding Models.
+		if (CommonStorage.Params != null)
+		{
+			list.Add(CommonStorage.Params.ModelsPckPath);
+			list.Add(CommonStorage.Params.ConfigsPckPath);
+			list.Add(CommonStorage.Params.SurfacesPckPath);
+		}
+		string[] array = list
+			.Where((string path) => !string.IsNullOrWhiteSpace(path) && File.Exists(path))
+			.Distinct(StringComparer.OrdinalIgnoreCase)
+			.ToArray();
+		if (array.Length == 0)
 		{
 			FileNames = null;
 			PCKs?.Clear();
 			PCKs = null;
+			return;
 		}
+		FileNames = new ConcurrentDictionary<string, string>(Environment.ProcessorCount, array.Length, StringComparer.OrdinalIgnoreCase);
+		foreach (string text in array)
+		{
+			string fileNameWithoutExtension = System.IO.Path.GetFileNameWithoutExtension(text);
+			FileNames.TryAdd(fileNameWithoutExtension, text);
+		}
+		PCKs = new ConcurrentDictionary<string, PCK>(Environment.ProcessorCount, FileNames.Count, StringComparer.OrdinalIgnoreCase);
+		GC.KeepAlive(this);
 	}
 
 	[return: MarshalAs(UnmanagedType.U1)]
