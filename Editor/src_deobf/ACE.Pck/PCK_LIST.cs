@@ -351,6 +351,7 @@ public class PCK_LIST
 	{
 		get
 		{
+			pck_name = NormalizePckName(pck_name);
 			Class347 @class = new Class347();
 			@class.pck_0 = null;
 			if (PCKs != null && FileNames != null && FileNames.TryGetValue(pck_name, out var value) && (!PCKs.TryGetValue(pck_name, out @class.pck_0) || @class.pck_0 == null || !@class.pck_0.FileLoaded) && File.Exists(value))
@@ -402,7 +403,7 @@ public class PCK_LIST
 		FileNames = new ConcurrentDictionary<string, string>(Environment.ProcessorCount, array.Length, StringComparer.OrdinalIgnoreCase);
 		foreach (string text in array)
 		{
-			string fileNameWithoutExtension = System.IO.Path.GetFileNameWithoutExtension(text);
+			string fileNameWithoutExtension = NormalizePckName(text);
 			FileNames.TryAdd(fileNameWithoutExtension, text);
 		}
 		PCKs = new ConcurrentDictionary<string, PCK>(Environment.ProcessorCount, FileNames.Count, StringComparer.OrdinalIgnoreCase);
@@ -412,6 +413,7 @@ public class PCK_LIST
 	[return: MarshalAs(UnmanagedType.U1)]
 	public bool LoadPck(string pck_name)
 	{
+		pck_name = NormalizePckName(pck_name);
 		if (FileNames != null && PCKs != null)
 		{
 			if (PCKs.TryGetValue(pck_name, out var value) && value != null && value.FileLoaded)
@@ -450,6 +452,7 @@ public class PCK_LIST
 
 	public async Task<bool> LoadPckAsync(string pck_name, CancellationToken cancellationToken = default(CancellationToken))
 	{
+		pck_name = NormalizePckName(pck_name);
 		Class349 @class = new Class349
 		{
 			pck_LIST_0 = this,
@@ -601,6 +604,7 @@ public class PCK_LIST
 	[return: MarshalAs(UnmanagedType.U1)]
 	public bool IsPckLoaded(string pck_name)
 	{
+		pck_name = NormalizePckName(pck_name);
 		if (PCKs == null)
 		{
 			return false;
@@ -614,6 +618,7 @@ public class PCK_LIST
 	[return: MarshalAs(UnmanagedType.U1)]
 	public bool IsPckExist(string pck_name)
 	{
+		pck_name = NormalizePckName(pck_name);
 		if (pck_name != null && FileNames != null)
 		{
 			string value;
@@ -622,6 +627,15 @@ public class PCK_LIST
 			return result;
 		}
 		return false;
+	}
+
+	private static string NormalizePckName(string pck_name)
+	{
+		if (string.IsNullOrWhiteSpace(pck_name))
+		{
+			return null;
+		}
+		return System.IO.Path.GetFileNameWithoutExtension(pck_name.Trim());
 	}
 
 	private void method_0(PCK pck_0, ref List<string> list_0)

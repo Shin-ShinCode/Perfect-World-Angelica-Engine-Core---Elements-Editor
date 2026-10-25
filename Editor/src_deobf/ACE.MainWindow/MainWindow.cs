@@ -21495,6 +21495,9 @@ public class MainWindow : Form
 		bool useAltFont = paramsClass_0.UseAltFont;
 		bool useAlternativeRecipesNames = paramsClass_0.UseAlternativeRecipesNames;
 		bool usePck = paramsClass_0.UsePck;
+		string configsPckPath = paramsClass_0.ConfigsPckPath;
+		string surfacesPckPath = paramsClass_0.SurfacesPckPath;
+		string modelsPckPath = paramsClass_0.ModelsPckPath;
 		string elementsPath = paramsClass_0.ElementsPath;
 		GAMES game = paramsClass_0.Game;
 		bool useSkillsFilter = paramsClass_0.UseSkillsFilter;
@@ -21536,19 +21539,22 @@ public class MainWindow : Form
 				if (usePck2)
 				{
 					string[] pckFiles2 = paramsClass_0.PckFiles;
-					if (pckFiles2 != null)
+					bool individualPckPathChanged = !string.Equals(configsPckPath, paramsClass_0.ConfigsPckPath, StringComparison.OrdinalIgnoreCase)
+						|| !string.Equals(surfacesPckPath, paramsClass_0.SurfacesPckPath, StringComparison.OrdinalIgnoreCase)
+						|| !string.Equals(modelsPckPath, paramsClass_0.ModelsPckPath, StringComparison.OrdinalIgnoreCase);
+					bool pckListChanged = individualPckPathChanged
+						|| (pckFiles2 != null && text != string.Join(Class16.smethod_0(1648898262), pckFiles2));
+					if (pckListChanged)
 					{
-						if (text != string.Join(Class16.smethod_0(1648898262), pckFiles2))
+						if (pck_LIST_0 != null)
 						{
-							if (pck_LIST_0 != null)
-							{
-								pck_LIST_0.SetPcksList(paramsClass_0.PckFiles);
-								method_336();
-							}
-							flag2 = true;
+							pck_LIST_0.Reset();
+							pck_LIST_0.SetPcksList(paramsClass_0.PckFiles);
+							method_336();
 						}
-						goto IL_0339;
+						flag2 = true;
 					}
+					goto IL_0339;
 				}
 				method_338();
 				int num2 = ((paramsClass_0.DescriptionsPath != descriptionsPath || flag) ? 1 : 0);
@@ -33034,6 +33040,17 @@ public class MainWindow : Form
 	{
 		if (!backgroundWorker_2.IsBusy)
 		{
+			// The selected file path is authoritative when a client names the model
+			// archive differently (for example models2.pck instead of models.pck).
+			string modelsPath = paramsClass_0?.ModelsPckPath;
+			if (!string.IsNullOrWhiteSpace(modelsPath) && File.Exists(modelsPath))
+			{
+				string configuredArchiveName = System.IO.Path.GetFileNameWithoutExtension(modelsPath);
+				if (pck_LIST_0 != null && pck_LIST_0.IsPckExist(configuredArchiveName))
+				{
+					CommonStorage.AParams.ModelsPckBaseName = configuredArchiveName;
+				}
+			}
 			if (paramsClass_0.UsePck && pck_LIST_0 != null && pck_LIST_0.IsPckExist(CommonStorage.AParams.ModelsPckBaseName))
 			{
 				state_LOAD_3 = STATE_LOAD.None;
