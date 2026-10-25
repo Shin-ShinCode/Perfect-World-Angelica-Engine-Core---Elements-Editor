@@ -11905,11 +11905,16 @@ public class eListCollection
 							break;
 						}
 						case FIELDTYPE.ft_quest:
-							if (Tasks != null)
+							// Some collections used by the Elements tooltip do not carry their own
+							// TASKS reference even though the main window has loaded tasks.data.
+							// Resolve through the active shared task file as a fallback so the
+							// quest name, link, and mission flag stay in sync.
+							TASKS taskData = Tasks ?? DataFiles.Tasks;
+							if (taskData != null)
 							{
 								int valueIFast = Lists[int_].GetValueIFast(int_2, num5);
 								GC.KeepAlive(this);
-								QUEST_INFO questInfo = Tasks.GetQuestInfo(valueIFast);
+								QUEST_INFO questInfo = taskData.GetQuestInfo(valueIFast);
 								if (questInfo != null)
 								{
 									Image questImage = questInfo.image;
